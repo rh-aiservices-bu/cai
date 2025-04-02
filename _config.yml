@@ -1,0 +1,7 @@
+# _config.yml
+remote_theme: "jekyll/minima@f1a2af4"
+
+title: Customer Adoption and Innovation
+
+nav_pages:
+  - about.md
