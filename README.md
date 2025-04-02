@@ -1,14 +1,17 @@
+Welcome to the CAI Team Page 👋
 
-Or simply, CAI! 👋
+# Team Motto 🏍️
 
-Through advice rooted in real-world experience, we empower customers, partners and colleagues, to unlock the full potential of Red Hat AI.
+- Through advice rooted in real-world experience,
+- we empower customers, partners and colleagues,
+- to unlock the full potential of Red Hat AI.
 
 # 😌 What we do?
 
-- Use Red Hat AI products like customers would
-- Act as internal "customer zero"
-- Help support customers on more complex topics
-- Share expertise based on experience
+- Leverage Red Hat AI products like our customers do
+  - Act as internal "customer zero"
+  - Help support customers on complex AI topics
+- Share expertise based on these experience
 - Push the envelope on what is possible with Red Hat AI!
 
 # 🔮 Team Members
