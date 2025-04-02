@@ -15,6 +15,7 @@ Through advice rooted in real-world experience, we empower customers, partners a
 
 - [@guimou](https://github.com/guimou)
 - [@erwangranger](https://github.com/erwangranger)
+- [@keklundrh](https://github.com/keklundrh/)
 - [@deewhyweb](https://github.com/deewhyweb)
 - [@rcarrata](https://github.com/rcarrata)
 - [@RHRolun](https://github.com/RHRolun)
