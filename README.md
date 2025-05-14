@@ -6,7 +6,7 @@ Welcome to the CAI Team Page 👋
 - we empower customers, partners and colleagues,
 - to unlock the full potential of Red Hat AI.
 
-# 😌 What we do?
+# 😌 What do we do?
 
 - Leverage Red Hat AI products like our customers do
   - Act as internal "customer zero"
