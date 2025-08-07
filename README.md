@@ -1,5 +1,7 @@
 Welcome to the CAI Team Page 👋
 
+The Customer Adoption & Innovation team is part of the Red Hat AI Business Unit. 
+
 # Team Motto 🏍️
 
 - Through advice rooted in real-world experience,
@@ -8,10 +10,10 @@ Welcome to the CAI Team Page 👋
 
 # 😌 What do we do?
 
-- Leverage Red Hat AI products like our customers do
-  - Act as internal "customer zero"
-  - Help support customers on complex AI topics
-- Share expertise based on these experience
+- Leverage Red Hat AI products like our customers would/might/should
+- Act as an internal "customer zero" at Red hat
+- Help support customers on complex AI topics
+- Share expertise based on first-hand experience
 - Push the envelope on what is possible with Red Hat AI!
 
 # 🔮 Team Members
