@@ -26,3 +26,4 @@ The Customer Adoption & Innovation team is part of the Red Hat AI Business Unit.
 - [@RHRolun](https://github.com/RHRolun)
 - [@ckavili](https://github.com/ckavili/)
 - [@abanderb](https://github.com/sarabanderby)
+- [@willsparker](https://github.com/willsparker)
