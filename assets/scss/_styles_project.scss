@@ -34,7 +34,13 @@
   // Red Hat brand layer, light mode (default was OINK amber #b4762e).
   --td-brand-copper: #ee0000;
   --td-brand-copper-dim: rgba(238, 0, 0, 0.6);
-  --td-brand-header-bg: rgba(255, 255, 255, 0.85);
+
+  // Header bg is theme-scoped: a plain :root definition would cascade the
+  // white band into dark mode (custom properties inherit from :root unless
+  // a theme scope redefines them). data-bs-theme sits on <html> itself.
+  &[data-bs-theme='light'] {
+    --td-brand-header-bg: rgba(255, 255, 255, 0.85);
+  }
 }
 
 [data-bs-theme='dark'] {
@@ -44,6 +50,8 @@
   --bs-link-color-rgb: 255, 102, 102;
   --bs-link-hover-color: #ff8585;
   --bs-link-hover-color-rgb: 255, 133, 133;
+  // Theme's near-black header band (dark default was amber-tinted blue-grey).
+  --td-brand-header-bg: rgba(11, 17, 25, 0.92);
 }
 
 // Red Hat canvas and reading conventions in light mode, overriding the
@@ -67,4 +75,29 @@
 // No company logo mark: the site name is the wordmark.
 .td-site-header .td-nav-logo {
   display: none;
+}
+
+// Whole-card click target for the initiative cards (pattern from the theme's
+// logo tiles): the card link stretches an invisible overlay across the card,
+// and the focus ring traces the card rather than the arrow. The card already
+// transitions border/box-shadow on hover from the theme.
+.td-landing-card {
+  position: relative;
+
+  > .td-landing-card-link {
+    &::after {
+      position: absolute;
+      content: '';
+      inset: 0;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  &:has(> .td-landing-card-link:focus-visible) {
+    outline: 2px solid var(--td-copper);
+    outline-offset: 3px;
+  }
 }

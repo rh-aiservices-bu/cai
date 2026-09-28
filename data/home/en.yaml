@@ -5,8 +5,6 @@ sections:
     key: mission
   - type: contributors
     key: team
-  - type: markdown
-    key: about
   - cta
 
 hero:
@@ -20,7 +18,6 @@ hero:
     and colleagues to unlock the full potential of Red Hat AI.
   actions:
     - { label: Meet the team, url: '#team', icon: fa-solid fa-users, style: primary }
-    - { label: Read our Team API, url: '#about', icon: fa-solid fa-handshake, style: ghost }
 
 cards:
   eyebrow: What we maintain
@@ -31,18 +28,22 @@ cards:
       desc: Our main org — 178 repos covering GPU partitioning, LLM ops, benchmarks, and workshops.
       icon: fa-solid fa-layer-group
       url: https://github.com/rh-aiservices-bu
+      external: true
     - title: Community Plugins
       desc: RHOAI Dashboard plugins extending Red Hat OpenShift AI — Kueue visualizer, Superset, admin tool.
       icon: fa-solid fa-plug
       url: https://github.com/rh-ai-community-plugins
+      external: true
     - title: AI Quickstart
       desc: 96 ready-to-deploy AI demos — RAG, satellite AI, supply chain agents, voice assistants.
       icon: fa-solid fa-rocket
       url: https://github.com/rh-ai-quickstart
+      external: true
     - title: AI on OpenShift
       desc: Documentation site with patterns, demos, tools, and how-tos for AI/ML/Data Science on OpenShift.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
+      external: true
 
 mission:
   eyebrow: What we do
@@ -87,14 +88,6 @@ team:
     - name: Will Parker
       image: https://github.com/willsparker.png?size=160
       desc: '[GitHub](https://github.com/willsparker)'
-
-about:
-  eyebrow: How to engage
-  desc: How to interact with CAI.
-  title: Team API
-  body: >-
-    This is CAI's Team API. A Team API is a description and specification
-    that a team can define that tells others how to interact with that team.
 
 cta:
   title: How to engage.

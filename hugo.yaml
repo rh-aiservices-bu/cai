@@ -48,9 +48,6 @@ outputs:
 
 params:
   offline_search: true
-  copyright:
-    authors: Red Hat Customer Adoption & Innovation
-    from_year: 2026
   footer_center_info: ''
   ui:
     dark_mode: true
