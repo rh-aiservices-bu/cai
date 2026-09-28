@@ -80,6 +80,11 @@ cards:
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true
+    - title: AI500 MLOps Enablement
+      desc: AI500 — laboratoire MLOps couvrant les instructions de labo, les scripts deploy-lab et l'outillage de déploiement pour automatiser l'entraînement et la livraison des modèles.
+      icon: fa-solid fa-infinity
+      url: https://github.com/rhoai-mlops
+      external: true
     - title: AI501 GenAIOps Enablement
       desc: AI501 — atelier GenAIOps de 5 jours couvrant les instructions de labo, les slides et l'outillage de déploiement pour exécuter des charges de travail GenAI en production.
       icon: fa-solid fa-graduation-cap

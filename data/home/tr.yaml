@@ -80,6 +80,11 @@ cards:
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true
+    - title: AI500 MLOps Enablement
+      desc: Model eğitimi ve teslimini otomatikleştirmeye yönelik laboratuvar talimatları, dağıtım betikleri ve araçları kapsayan MLOps yetkinlik laboratuvarı.
+      icon: fa-solid fa-infinity
+      url: https://github.com/rhoai-mlops
+      external: true
     - title: AI501 GenAIOps Enablement
       desc: AI501 — GenAI iş yüklerini üretimde çalıştırmaya yönelik laboratuvar talimatları, sunumlar ve dağıtım araçlarını kapsayan 5 günlük GenAI Ops yetkinlik atölyesi.
       icon: fa-solid fa-graduation-cap
