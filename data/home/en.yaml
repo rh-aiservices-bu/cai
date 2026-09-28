@@ -79,6 +79,11 @@ cards:
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true
+    - title: AI501 GenAIOps Enablement
+      desc: AI501 — 5-day GenAI Ops enablement workshop covering lab instructions, slides, and deployment tooling for running GenAI workloads in production.
+      icon: fa-solid fa-graduation-cap
+      url: https://github.com/rhoai-genaiops
+      external: true
 
 mission:
   eyebrow: What we do
