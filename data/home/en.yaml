@@ -22,16 +22,16 @@ hero:
     - words: [{ text: "and Innovation" }]
     - words: [{ mark: "(CAI)", color: red }]
   lead: >-
-    We build, deploy, and break Red Hat AI in production before you do —
-    then share what actually works.
-  note: Customer zero for Red Hat AI
+    We deploy, use, and battle-test Red Hat AI in production-like environments.
+    We then share our learnings, best practices, and patterns with colleagues and customers.
+  # note: Customer zero for Red Hat AI
   actions:
     - { label: Meet the team, url: '#team', icon: fa-solid fa-users, style: primary }
 
 metrics:
   animate: true
   columns: 4
-  eyebrow: Customer zero, in numbers
+  eyebrow: Quick numbers
   items:
     - value: 178
       label: Repositories in rh-aiservices-bu
@@ -55,22 +55,22 @@ metrics:
       source: { label: Meet the team, url: '#team' }
 
 cards:
-  eyebrow: What we maintain
+  eyebrow: What we helped create and maintain
   title: Initiatives
   columns: 2
   items:
-    - title: Red Hat AI
-      desc: Our main org — 178 repos covering GPU partitioning, LLM ops, benchmarks, and workshops.
+    - title: Red Hat AI github org
+      desc: Our main org — 178 repos covering all sorts of AI projects, prototypes, and utilities.
       icon: fa-solid fa-layer-group
       url: https://github.com/rh-aiservices-bu
       external: true
-    - title: Community Plugins
-      desc: RHOAI Dashboard plugins extending Red Hat OpenShift AI — Kueue visualizer, Superset, admin tool.
+    - title: Red Hat AI Community Plugins
+      desc: Red Hat AI Enterprise Community Plugins, extending Red Hat OpenShift AI.
       icon: fa-solid fa-plug
       url: https://github.com/rh-ai-community-plugins
       external: true
-    - title: AI Quickstart
-      desc: 96 ready-to-deploy AI demos — RAG, satellite AI, supply chain agents, voice assistants.
+    - title: AI Quickstarts
+      desc: Vertically aligned, outcome-focused example of how AI can solve real-world business problems.
       icon: fa-solid fa-rocket
       url: https://github.com/rh-ai-quickstart
       external: true

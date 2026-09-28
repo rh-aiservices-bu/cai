@@ -122,10 +122,12 @@
   }
 }
 
-// Team hierarchy (director request): Erwan, the director, features alone on
-// the full-width first row; the eight team members flow beneath in the grid.
+// Team hierarchy (director request): Erwan, the director, features centered
+// on his own row; the eight team members flow beneath in the grid.
 .td-landing-contributor--director {
   grid-column: 1 / -1;
+  width: fit-content;
+  margin-inline: auto;
 
   .td-landing-contributor__avatar {
     width: 64px;
