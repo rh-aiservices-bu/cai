@@ -11,6 +11,7 @@ Requires Hugo Extended ≥ 0.165 and Go ≥ 1.27 (no Node.js):
 ```sh
 hugo server
 ```
+Serves under the baseURL subpath — open http://localhost:1313/cai/ (a 404 at the root is expected).
 
 ## Deploy
 
@@ -24,7 +25,6 @@ OINK module from `go.mod`/`go.sum`, and builds warning-strict.
 
 | Path | What it is |
 | --- | --- |
-| `data/home/en.yaml` | Landing page sections (hero, initiative cards, engage CTA) |
-| `content/team/_index.md` | Team page — what we do, member table |
-| `content/about/_index.md` | Team API page |
+| `data/home/en.yaml` | Landing page sections (hero, metrics, initiative cards, mission, team, engage CTA) |
+| `content/_index.md` | Home page front matter (title, description) |
 | `hugo.yaml` | The only site configuration file |
