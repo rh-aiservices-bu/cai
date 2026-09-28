@@ -1,0 +1,61 @@
+# Project strings: landing left-nav rail (layouts/_partials/hooks/body-end.html).
+# nav_contents: İçindekiler
+nav_page_sections: Sayfa bölümleri
+nav_home: Giriş
+nav_numbers: Sayılar
+nav_initiatives: Girişimler
+nav_mission: Misyon
+nav_team: Ekip
+nav_engage: Bize ulaşın
+
+# Reviewed translations for OINK strings the theme ships as English fallbacks.
+# Surfaces used by this site: search palette, chrome menus, keyboard help, 404.
+contributors_count: katkıcı
+ui_search_empty: Sonuç bulunamadı
+ui_search_loading: Arama dizini yükleniyor…
+ui_search_results: '{count} sonuç bulundu'
+ui_search_nav: Gezin
+ui_search_open: Aç
+ui_search_close: Kapat
+ui_palette_choose: Bir seçenek belirleyin
+ui_palette_no_commands: Eşleşen komut yok
+ui_palette_quick_links: Hızlı bağlantılar
+ui_palette_commands: Komutlar
+ui_palette_preferences: Tercihler
+ui_palette_page_actions: Sayfa eylemleri
+ui_palette_index_unavailable: Sayfa dizini kullanılamıyor; eylemler yine de çalışır
+ui_palette_action_failed: Eylem tamamlanamadı
+ui_home: Giriş
+ui_sidebar_nav: Bölüm gezinmesi
+ui_main_nav: Ana gezinme
+ui_heading_self_link: Bu başlığa bağlantı
+ui_language_select: Dil seçin
+ui_language_switch: Dili değiştir
+ui_skip_to_content: İçeriğe atla
+ui_theme_toggle: Renk temasını değiştir
+ui_theme_light: Açık
+ui_theme_dark: Koyu
+ui_theme_auto: Sistemi izle
+ui_copy_markdown: Markdown'ı kopyala
+ui_copy_success: Markdown kopyalandı
+ui_copy_error: Markdown kopyalanamadı
+ui_copy_link: Bağlantıyı kopyala
+ui_copy_link_success: Bağlantı kopyalandı
+ui_copy_link_error: Bağlantı kopyalanamadı
+ui_print_page: Bu sayfayı yazdır
+ui_keyboard_shortcuts: Klavye kısayolları
+ui_shortcut_tree_move: Kenar çubuğunda gezin
+ui_shortcut_tree_toggle: Bölümü daralt veya genişlet
+ui_shortcut_tree_open: Odaklanan sayfayı aç
+ui_shortcut_heading_move: Önceki veya sonraki başlık
+ui_shortcut_page_move: Önceki veya sonraki sayfa
+ui_shortcut_search: Ara
+ui_shortcut_commands: Komut paleti
+ui_shortcut_reading_mode: Okuma modu
+ui_shortcut_language: Dili değiştir
+ui_shortcut_theme: Temayı değiştir
+ui_shortcut_route: Üst düzey sayfalar arasında geçiş yap
+error_404_title: Sayfa bulunamadı
+error_404_body: >-
+  Üzgünüz, bu sayfa mevcut değil. Ana sayfadan yeniden başlamayı deneyin.
+error_404_home: Ana sayfaya git

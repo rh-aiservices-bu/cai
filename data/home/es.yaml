@@ -1,0 +1,144 @@
+sections:
+  - hero
+  - metrics
+  - cards
+  - type: markdown
+    key: mission
+  - type: contributors
+    key: team
+  - cta
+
+hero:
+  eyebrow: Unidad de negocio de IA de Red Hat
+  image:
+    light: landing/hero-light.svg
+    dark: landing/hero-dark.svg
+    alt: Ilustración abstracta de una red que conecta las capacidades de IA de Red Hat
+  media:
+    hide_below: lg
+  title_size: 2.8rem
+  title_lines:
+    - words: [{ text: "Customer Adoption" }]
+    - words: [{ text: "and Innovation" }]
+    - words: [{ mark: "(CAI)", color: red }]
+  lead: >-
+    Desplegamos, usamos y probamos a fondo Red Hat AI en entornos similares a
+    producción. Después compartimos lo aprendido, buenas prácticas y patrones
+    con compañeros y clientes.
+  # note: Customer zero for Red Hat AI
+  actions:
+    - { label: Conoce al equipo, url: '#team', icon: fa-solid fa-users, style: primary }
+
+metrics:
+  animate: true
+  columns: 4
+  eyebrow: Cifras rápidas
+  items:
+    - value: 178
+      label: Repositorios en rh-aiservices-bu
+      desc: Particionado de GPU, operaciones LLM, benchmarks y talleres.
+      icon: fa-brands fa-github
+      source: { label: Organización de GitHub, url: "https://github.com/rh-aiservices-bu" }
+    - value: 96
+      label: Demos de IA listas para desplegar
+      desc: RAG, IA satelital, agentes de cadena de suministro y asistentes de voz.
+      icon: fa-solid fa-rocket
+      source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
+    - value: 6
+      label: Plugins de panel de control
+      desc: Extensiones comunitarias de Red Hat AI.
+      icon: fa-solid fa-plug
+      source: { label: Community Plugins, url: "https://github.com/rh-ai-community-plugins" }
+    - value: 9
+      label: Miembros del equipo
+      desc: Adopción de clientes e innovación en toda Red Hat AI.
+      icon: fa-solid fa-users
+      source: { label: Conoce al equipo, url: '#team' }
+
+cards:
+  eyebrow: Lo que ayudamos a crear y mantener
+  title: Iniciativas
+  columns: 2
+  items:
+    - title: Organización de GitHub de Red Hat AI
+      desc: Nuestra organización principal — 178 repositorios que cubren todo tipo de proyectos, prototipos y utilidades de IA.
+      icon: fa-solid fa-layer-group
+      url: https://github.com/rh-aiservices-bu
+      external: true
+    - title: Red Hat AI Community Plugins
+      desc: Plugins comunitarios de Red Hat AI Enterprise, que amplían Red Hat OpenShift AI.
+      icon: fa-solid fa-plug
+      url: https://github.com/rh-ai-community-plugins
+      external: true
+    - title: AI Quickstarts
+      desc: Ejemplos enfocados en resultados y alineados verticalmente que muestran cómo la IA resuelve problemas de negocio reales.
+      icon: fa-solid fa-rocket
+      url: https://github.com/rh-ai-quickstart
+      external: true
+    - title: AI on OpenShift
+      desc: Sitio de documentación con patrones, demos, herramientas y guías para IA/ML/Ciencia de datos en OpenShift.
+      icon: fa-solid fa-book-open
+      url: https://ai-on-openshift.io/
+      external: true
+    - title: AI501 GenAIOps Enablement
+      desc: AI501 — taller de habilitación de GenAIOps de 5 días que cubre instrucciones de laboratorio, diapositivas y herramientas de despliegue para ejecutar cargas de trabajo GenAI en producción.
+      icon: fa-solid fa-graduation-cap
+      url: https://github.com/rhoai-genaiops
+      external: true
+
+mission:
+  eyebrow: Lo que hacemos
+  title: Misión
+  body: |
+    - Usar los productos de Red Hat AI como lo hacen nuestros clientes
+    - Actuar como "cliente cero" interno en Red Hat
+    - Ayudar a dar soporte a los clientes en temas complejos de IA
+    - Compartir experiencia basada en la vivencia de primera mano
+    - ¡Llevar al límite lo que es posible con Red Hat AI!
+
+team:
+  eyebrow: Quiénes somos
+  title: Equipo
+  type: contributors
+  columns: 3
+  # desc:
+  items:
+    - name: Erwan Granger
+      class: td-landing-contributor--director
+      image: https://github.com/erwangranger.png?size=160
+      desc: '[GitHub](https://github.com/erwangranger) · [LinkedIn](https://www.linkedin.com/in/erwangranger)'
+    - name: Guillaume Moutier
+      image: https://github.com/guimou.png?size=160
+      desc: '[GitHub](https://github.com/guimou) · [LinkedIn](https://www.linkedin.com/in/guillaume-moutier-70aba762)'
+    - name: Robert Lundberg
+      image: https://github.com/RHRolun.png?size=160
+      desc: '[GitHub](https://github.com/RHRolun) · [LinkedIn](https://www.linkedin.com/in/rolun)'
+    - name: Roberto Carratalá
+      image: https://github.com/rcarrata.png?size=160
+      desc: '[GitHub](https://github.com/rcarrata) · [LinkedIn](https://www.linkedin.com/in/rcarrata)'
+    - name: Karl Eklund
+      image: https://github.com/keklundrh.png?size=160
+      desc: '[GitHub](https://github.com/keklundrh) · [LinkedIn](https://www.linkedin.com/in/karl-eklund-a2180515)'
+    - name: Cansu Kavili Örnek
+      image: https://github.com/ckavili.png?size=160
+      desc: '[GitHub](https://github.com/ckavili) · [LinkedIn](https://www.linkedin.com/in/ckavili)'
+    - name: Philip Hayes
+      image: https://github.com/deewhyweb.png?size=160
+      desc: '[GitHub](https://github.com/deewhyweb) · [LinkedIn](https://www.linkedin.com/in/philip-hayes-0327532)'
+    - name: Sara Banderby
+      image: https://github.com/sarabanderby.png?size=160
+      desc: '[GitHub](https://github.com/sarabanderby) · [LinkedIn](https://www.linkedin.com/in/annelisarabanderby)'
+    - name: Will Parker
+      image: https://github.com/willsparker.png?size=160
+      desc: '[GitHub](https://github.com/willsparker) · [LinkedIn](https://www.linkedin.com/in/willsparker98)'
+
+cta:
+  title: Cómo colaborar con nosotros
+  text: >-
+    Aprende y obtén ayuda en AI on OpenShift, prueba demos listas para desplegar
+    en AI Quickstart, propone ideas de plugins en Community Plugins — o abre un
+    issue en este repositorio para trabajar directamente con el equipo.
+  actions:
+    - { label: Aprender en AI on OpenShift, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
+    - { label: Probar las demos de AI Quickstart, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
+    - { label: Proponer un plugin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }

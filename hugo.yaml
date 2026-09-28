@@ -31,6 +31,43 @@ languages:
     params:
       description: L'équipe Adoption clients et innovation IA de l'unité Business IA de Red Hat — initiatives, démos, plugins et comment nous solliciter.
 
+  es:
+    label: Español
+    locale: es-ES
+    weight: 4
+    title: Customer Adoption and Innovation (CAI)
+    params:
+      description: El equipo de Adopción de clientes e innovación de IA de la unidad de negocio de IA de Red Hat — iniciativas, demos, plugins y cómo colaborar.
+  de:
+    label: Deutsch
+    locale: de-DE
+    weight: 5
+    title: Customer Adoption and Innovation (CAI)
+    params:
+      description: Das Team Customer Adoption & Innovation der Business Unit KI von Red Hat — Initiativen, Demos, Plugins und wie Sie mit uns ins Gespräch kommen.
+  sv:
+    label: Svenska
+    locale: sv-SE
+    weight: 6
+    title: Customer Adoption and Innovation (CAI)
+    params:
+      description: Teamet Customer Adoption & Innovation inom Red Hats AI-affärsenhet — initiativ, demos, plugins och hur du samarbetar med oss.
+  it:
+    label: Italiano
+    locale: it-IT
+    weight: 7
+    title: Customer Adoption and Innovation (CAI)
+    params:
+      description: Il team Customer Adoption & Innovation dell'unità di business IA di Red Hat — iniziative, demo, plugin e come contattarci.
+
+  tr:
+    label: Türkçe
+    locale: tr-TR
+    weight: 8
+    title: Customer Adoption and Innovation (CAI)
+    params:
+      description: Red Hat'ın AI İş Birimi'ndeki Müşteri Benimseme ve İnovasyon ekibi — girişimler, demolar, eklentiler ve bize nasıl ulaşabileceğiniz.
+
 # OINK's Markdown components depend on these Goldmark settings.
 markup:
   goldmark:

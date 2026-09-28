@@ -1,0 +1,61 @@
+# Project strings: landing left-nav rail (layouts/_partials/hooks/body-end.html).
+# nav_contents: Índice
+nav_page_sections: Secciones de la página
+nav_home: Inicio
+nav_numbers: Cifras
+nav_initiatives: Iniciativas
+nav_mission: Misión
+nav_team: Equipo
+nav_engage: Colaborar
+
+# Reviewed translations for OINK strings the theme ships as English fallbacks.
+# Surfaces used by this site: search palette, chrome menus, keyboard help, 404.
+contributors_count: colaboradores
+ui_search_empty: Sin resultados
+ui_search_loading: Cargando el índice de búsqueda…
+ui_search_results: 'Se encontraron {count} resultados'
+ui_search_nav: Navegar
+ui_search_open: Abrir
+ui_search_close: Cerrar
+ui_palette_choose: Elige una opción
+ui_palette_no_commands: No hay comandos coincidentes
+ui_palette_quick_links: Enlaces rápidos
+ui_palette_commands: Comandos
+ui_palette_preferences: Preferencias
+ui_palette_page_actions: Acciones de la página
+ui_palette_index_unavailable: Índice de la página no disponible; las acciones siguen funcionando
+ui_palette_action_failed: No se pudo completar la acción
+ui_home: Inicio
+ui_sidebar_nav: Navegación de la sección
+ui_main_nav: Navegación principal
+ui_heading_self_link: Enlace a este encabezado
+ui_language_select: Elegir idioma
+ui_language_switch: Cambiar de idioma
+ui_skip_to_content: Saltar al contenido
+ui_theme_toggle: Cambiar el tema de color
+ui_theme_light: Claro
+ui_theme_dark: Oscuro
+ui_theme_auto: Sistema
+ui_copy_markdown: Copiar el Markdown
+ui_copy_success: Markdown copiado
+ui_copy_error: No se pudo copiar el Markdown
+ui_copy_link: Copiar el enlace
+ui_copy_link_success: Enlace copiado
+ui_copy_link_error: No se pudo copiar el enlace
+ui_print_page: Imprimir esta página
+ui_keyboard_shortcuts: Atajos de teclado
+ui_shortcut_tree_move: Navegar por la barra lateral
+ui_shortcut_tree_toggle: Contraer o expandir la sección
+ui_shortcut_tree_open: Abrir la página seleccionada
+ui_shortcut_heading_move: Encabezado anterior o siguiente
+ui_shortcut_page_move: Página anterior o siguiente
+ui_shortcut_search: Buscar
+ui_shortcut_commands: Paleta de comandos
+ui_shortcut_reading_mode: Modo lectura
+ui_shortcut_language: Cambiar de idioma
+ui_shortcut_theme: Cambiar de tema
+ui_shortcut_route: Cambiar entre las páginas de primer nivel
+error_404_title: Página no encontrada
+error_404_body: >-
+  Lo sentimos, esta página no existe. Vuelve a empezar desde la página de inicio.
+error_404_home: Ir a la página de inicio
