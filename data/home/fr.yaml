@@ -9,11 +9,11 @@ sections:
   - cta
 
 hero:
-  eyebrow: Red Hat AI Business Unit
+  eyebrow: Business Unit IA de Red Hat
   image:
     light: landing/hero-light.svg
     dark: landing/hero-dark.svg
-    alt: Abstract network illustration of connected Red Hat AI capabilities
+    alt: Illustration abstraite d'un réseau reliant les capacités Red Hat AI
   media:
     hide_below: lg
   title_size: 2.8rem
@@ -22,82 +22,83 @@ hero:
     - words: [{ text: "and Innovation" }]
     - words: [{ mark: "(CAI)", color: red }]
   lead: >-
-    We deploy, use, and battle-test Red Hat AI in production-like environments.
-    We then share our learnings, best practices, and patterns with colleagues and customers.
+    Nous déployons, utilisons et éprouvons Red Hat AI dans des environnements
+    proches de la production. Nous partageons ensuite nos apprentissages,
+    bonnes pratiques et patterns avec nos collègues et nos clients.
   # note: Customer zero for Red Hat AI
   actions:
-    - { label: Meet the team, url: '#team', icon: fa-solid fa-users, style: primary }
+    - { label: Rencontrez l'équipe, url: '#team', icon: fa-solid fa-users, style: primary }
 
 metrics:
   animate: true
   columns: 4
-  eyebrow: Quick numbers
+  eyebrow: Quelques chiffres
   items:
     - value: 178
-      label: Repositories in rh-aiservices-bu
-      desc: GPU partitioning, LLM ops, benchmarks, and workshops.
+      label: Dépôts dans rh-aiservices-bu
+      desc: Partitionnement GPU, opérations LLM, benchmarks et ateliers.
       icon: fa-brands fa-github
-      source: { label: GitHub org, url: "https://github.com/rh-aiservices-bu" }
+      source: { label: Organisation GitHub, url: "https://github.com/rh-aiservices-bu" }
     - value: 96
-      label: Ready-to-deploy AI demos
-      desc: RAG, satellite AI, supply chain agents, and voice assistants.
+      label: Démos IA prêtes à déployer
+      desc: RAG, IA satellite, agents de chaîne d'approvisionnement et assistants vocaux.
       icon: fa-solid fa-rocket
       source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
-    - value: 6
-      label: Dashboard plugins
-      desc: Red Hat AI community extensions.
+    - value: 4
+      label: Plugins de tableau de bord
+      desc: Extensions du tableau de bord RHOAI — visualiseur Kueue, Superset et un outil d'administration.
       icon: fa-solid fa-plug
-      source: { label: Community Plugins, url: "https://github.com/rh-ai-community-plugins" }
+      source: { label: Plugins communautaires, url: "https://github.com/rh-ai-community-plugins" }
     - value: 9
-      label: Team members
-      desc: Customer adoption and innovation across Red Hat AI.
+      label: Membres de l'équipe
+      desc: Adoption clients et innovation pour Red Hat AI.
       icon: fa-solid fa-users
-      source: { label: Meet the team, url: '#team' }
+      source: { label: Rencontrez l'équipe, url: '#team' }
 
 cards:
-  eyebrow: What we helped create and maintain
+  eyebrow: Ce que nous avons contribué à créer et maintenir
   title: Initiatives
   columns: 2
   items:
-    - title: Red Hat AI github org
-      desc: Our main org — 178 repos covering all sorts of AI projects, prototypes, and utilities.
+    - title: Organisation GitHub Red Hat AI
+      desc: Notre organisation principale — 178 dépôts couvrant toutes sortes de projets, prototypes et utilitaires IA.
       icon: fa-solid fa-layer-group
       url: https://github.com/rh-aiservices-bu
       external: true
     - title: Red Hat AI Community Plugins
-      desc: Red Hat AI Enterprise Community Plugins, extending Red Hat OpenShift AI.
+      desc: Plugins communautaires Red Hat AI Enterprise, qui étendent Red Hat OpenShift AI.
       icon: fa-solid fa-plug
       url: https://github.com/rh-ai-community-plugins
       external: true
     - title: AI Quickstarts
-      desc: Vertically aligned, outcome-focused example of how AI can solve real-world business problems.
+      desc: Des exemples alignés par domaine et orientés résultats montrant comment l'IA résout de vrais problèmes métier.
       icon: fa-solid fa-rocket
       url: https://github.com/rh-ai-quickstart
       external: true
     - title: AI on OpenShift
-      desc: Documentation site with patterns, demos, tools, and how-tos for AI/ML/Data Science on OpenShift.
+      desc: Site de documentation avec patterns, démos, outils et guides pour l'IA/ML/Data Science sur OpenShift.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true
     - title: AI501 GenAIOps Enablement
-      desc: AI501 — 5-day GenAI Ops enablement workshop covering lab instructions, slides, and deployment tooling for running GenAI workloads in production.
+      desc: AI501 — atelier GenAIOps de 5 jours couvrant les instructions de labo, les slides et l'outillage de déploiement pour exécuter des charges de travail GenAI en production.
       icon: fa-solid fa-graduation-cap
       url: https://github.com/rhoai-genaiops
       external: true
 
 mission:
-  eyebrow: What we do
+  eyebrow: Ce que nous faisons
   title: Mission
   body: |
-    - Leverage Red Hat AI products like our customers do
-    - Act as an internal "customer zero" at Red Hat
-    - Help support customers on complex AI topics
-    - Share expertise based on first-hand experience
-    - Push the envelope on what is possible with Red Hat AI!
+    - Utiliser les produits Red Hat AI comme nos clients le feraient/pourraient/devraient
+    - Agir comme « client zéro » interne chez Red Hat
+    - Aider nos clients sur des sujets IA complexes
+    - Partager notre expertise issue de l'expérience de terrain
+    - Repousser les limites du possible avec Red Hat AI !
 
 team:
-  eyebrow: Who we are
-  title: Team
+  eyebrow: Qui nous sommes
+  title: Équipe
   type: contributors
   columns: 3
   # desc:
@@ -124,7 +125,7 @@ team:
     - name: Philip Hayes
       image: https://github.com/deewhyweb.png?size=160
       desc: '[GitHub](https://github.com/deewhyweb) · [LinkedIn](https://www.linkedin.com/in/philip-hayes-0327532)'
-    - name: Sara Banderby
+    - name: Sara
       image: https://github.com/sarabanderby.png?size=160
       desc: '[GitHub](https://github.com/sarabanderby) · [LinkedIn](https://www.linkedin.com/in/annelisarabanderby)'
     - name: Will Parker
@@ -132,12 +133,13 @@ team:
       desc: '[GitHub](https://github.com/willsparker) · [LinkedIn](https://www.linkedin.com/in/willsparker98)'
 
 cta:
-  title: How to engage
+  title: Comment nous solliciter.
   text: >-
-    Learn and get help at AI on OpenShift, try ready-to-deploy demos in AI Quickstart,
-    propose plugin ideas in Community Plugins — or open an issue in this repository
-    to work with the team directly.
+    Apprenez et obtenez de l'aide sur AI on OpenShift, essayez des démos prêtes
+    à déployer dans AI Quickstart, proposez des idées de plugins dans Community
+    Plugins — ou ouvrez une issue dans ce dépôt pour travailler directement
+    avec l'équipe.
   actions:
-    - { label: Learn at AI on OpenShift, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
-    - { label: Try AI Quickstart demos, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
-    - { label: Propose a plugin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }
+    - { label: Apprendre sur AI on OpenShift, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
+    - { label: Essayer les démos AI Quickstart, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
+    - { label: Proposer un plugin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }

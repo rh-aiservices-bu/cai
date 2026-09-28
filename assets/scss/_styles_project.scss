@@ -147,3 +147,44 @@
     align-items: flex-start;
   }
 }
+
+// Header restyle (choice: frosted glass): taller Red Hat-red wash on a blur,
+// with a gradient accent underline. The underline lives on the body: the
+// bar's own backdrop-filter would smear an in-bar underline into its canvas.
+:root {
+  --td-brand-header-height: 64px;
+}
+
+.td-site-header {
+  height: var(--td-brand-header-height);
+  backdrop-filter: blur(14px) saturate(1.6);
+  -webkit-backdrop-filter: blur(14px) saturate(1.6);
+}
+
+[data-bs-theme='light'] .td-site-header {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 238, 236, 0.88) 100%);
+  box-shadow: 0 2px 10px rgba(23, 42, 66, 0.06);
+}
+
+[data-bs-theme='dark'] .td-site-header {
+  background: linear-gradient(180deg, rgba(11, 17, 25, 0.95) 0%, rgba(18, 28, 41, 0.92) 100%);
+  box-shadow: 0 4px 18px rgba(2, 8, 18, 0.45);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset-inline: 0;
+  inset-block-start: var(--td-brand-header-height);
+  height: 2px;
+  background: linear-gradient(90deg, var(--td-brand-copper) 0%, transparent 55%);
+  z-index: 101;
+  pointer-events: none;
+}
+
+// Wordmark tint (light): the text half takes the brand canvas instead of the
+// theme's default palette strip. Dark keeps the theme half.
+[data-bs-theme='light'] .td-site-header .td-nav-title {
+  --td-brand-mark-from: #151515;
+  --td-brand-mark-to: var(--td-brand-copper);
+}

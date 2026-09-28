@@ -1,13 +1,13 @@
 {{- if .IsHome -}}
-<nav class="landing-sidebar d-print-none" aria-label="Page sections">
-  <p class="landing-sidebar__title">Contents</p>
+<nav class="landing-sidebar d-print-none" aria-label="{{ T "nav_page_sections" }}">
+  <p class="landing-sidebar__title">{{ T "nav_contents" }}</p>
   <ul class="landing-nav">
-    <li><a class="landing-nav-link" href="#hero">Home</a></li>
-    <li><a class="landing-nav-link" href="#metrics">Numbers</a></li>
-    <li><a class="landing-nav-link" href="#cards">Initiatives</a></li>
-    <li><a class="landing-nav-link" href="#mission">Mission</a></li>
-    <li><a class="landing-nav-link" href="#team">Team</a></li>
-    <li><a class="landing-nav-link" href="#cta">Engage</a></li>
+    <li><a class="landing-nav-link" href="#hero">{{ T "nav_home" }}</a></li>
+    <li><a class="landing-nav-link" href="#metrics">{{ T "nav_numbers" }}</a></li>
+    <li><a class="landing-nav-link" href="#cards">{{ T "nav_initiatives" }}</a></li>
+    <li><a class="landing-nav-link" href="#mission">{{ T "nav_mission" }}</a></li>
+    <li><a class="landing-nav-link" href="#team">{{ T "nav_team" }}</a></li>
+    <li><a class="landing-nav-link" href="#cta">{{ T "nav_engage" }}</a></li>
   </ul>
 </nav>
 {{- end -}}
