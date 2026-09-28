@@ -32,10 +32,10 @@ hero:
 metrics:
   animate: true
   columns: 4
-  eyebrow: Birkaç sayı
+  eyebrow: Hızlı sayılar
   items:
     - value: 178
-      label: rh-aiservices-bu deposundaki depolar
+      label: rh-aiservices-bu'daki depolar
       desc: GPU bölümleme, LLM işlemleri, kıyaslamalar ve atölyeler.
       icon: fa-brands fa-github
       source: { label: GitHub organizasyonu, url: "https://github.com/rh-aiservices-bu" }

@@ -32,9 +32,9 @@ OINK module from `go.mod`/`go.sum`, and builds warning-strict.
 | Path | What it is |
 | --- | --- |
 | `data/home/en.yaml` | Landing page sections (hero, metrics, initiative cards, mission, team, engage CTA) |
-| `data/home/fr.yaml` | French translation of the landing sections (resolved per language by the theme; hero title and brand name stay English) |
+| `data/home/fr.yaml` | French landing sections; `es/de/sv/it/tr` peers in the same folder (resolved per language by the theme; hero title and brand name stay English) |
 | `content/_index.md` | Home page front matter (title, description) |
-| `content/_index.fr.md` | French home page front matter |
+| `content/_index.fr.md` | French home page front matter; `es/de/sv/it/tr` peers in the same folder |
 | `i18n/en.yaml` | English strings: landing left-nav rail labels |
-| `i18n/fr.yaml` | French strings: left-nav rail labels + translations for OINK UI strings the theme ships as English fallbacks |
+| `i18n/fr.yaml` | French strings: left-nav rail labels + translations for OINK UI strings the theme ships as English fallbacks; `es-ES/de-DE/sv-SE/it-IT/tr-TR` peers named by full subtag so project strings register after the theme's base-tag fallbacks and always win |
 | `hugo.yaml` | The only site configuration file |

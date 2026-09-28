@@ -44,9 +44,9 @@ metrics:
       desc: RAG, IA satellite, agents de chaîne d'approvisionnement et assistants vocaux.
       icon: fa-solid fa-rocket
       source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
-    - value: 4
+    - value: 6
       label: Plugins de tableau de bord
-      desc: Extensions du tableau de bord RHOAI — visualiseur Kueue, Superset et un outil d'administration.
+      desc: Extensions communautaires de Red Hat AI.
       icon: fa-solid fa-plug
       source: { label: Plugins communautaires, url: "https://github.com/rh-ai-community-plugins" }
     - value: 9
