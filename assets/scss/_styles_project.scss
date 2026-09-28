@@ -121,3 +121,16 @@
     box-shadow: 0 10px 30px var(--td-brand-copper-dim);
   }
 }
+
+// Team hierarchy (director request): Erwan, the director, features alone on
+// the full-width first row; the eight team members flow beneath in the grid.
+.td-landing-contributor--director {
+  grid-column: 1 / -1;
+
+  .td-landing-contributor__avatar {
+    width: 64px;
+    height: 64px;
+    outline: 2px solid var(--td-brand-copper);
+    outline-offset: 2px;
+  }
+}

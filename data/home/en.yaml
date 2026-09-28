@@ -95,13 +95,15 @@ team:
   title: Team
   type: contributors
   columns: 3
+  # desc:
   items:
+    - name: Erwan Granger
+      class: td-landing-contributor--director
+      image: https://github.com/erwangranger.png?size=160
+      desc: 'Director · [GitHub](https://github.com/erwangranger) · [LinkedIn](https://www.linkedin.com/in/erwangranger)'
     - name: Guillaume Moutier
       image: https://github.com/guimou.png?size=160
       desc: '[GitHub](https://github.com/guimou) · [LinkedIn](https://www.linkedin.com/in/guillaume-moutier-70aba762)'
-    - name: Erwan Granger
-      image: https://github.com/erwangranger.png?size=160
-      desc: '[GitHub](https://github.com/erwangranger) · [LinkedIn](https://www.linkedin.com/in/erwangranger)'
     - name: Karl Eklund
       image: https://github.com/keklundrh.png?size=160
       desc: '[GitHub](https://github.com/keklundrh) · [LinkedIn](https://www.linkedin.com/in/karl-eklund-a2180515)'
@@ -119,10 +121,10 @@ team:
       desc: '[GitHub](https://github.com/ckavili) · [LinkedIn](https://www.linkedin.com/in/ckavili)'
     - name: Sara
       image: https://github.com/sarabanderby.png?size=160
-      desc: '[GitHub](https://github.com/sarabanderby)'
+      desc: '[GitHub](https://github.com/sarabanderby) · [LinkedIn](https://www.linkedin.com/in/annelisarabanderby)'
     - name: Will Parker
       image: https://github.com/willsparker.png?size=160
-      desc: '[GitHub](https://github.com/willsparker)'
+      desc: '[GitHub](https://github.com/willsparker) · [LinkedIn](https://www.linkedin.com/in/willsparker98)'
 
 cta:
   title: How to engage.
