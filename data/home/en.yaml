@@ -1,4 +1,13 @@
-sections: [hero, cards, cta]
+sections:
+  - hero
+  - cards
+  - type: markdown
+    key: mission
+  - type: contributors
+    key: team
+  - type: markdown
+    key: about
+  - cta
 
 hero:
   align: center
@@ -10,8 +19,8 @@ hero:
     Through advice rooted in real-world experience, we empower customers, partners
     and colleagues to unlock the full potential of Red Hat AI.
   actions:
-    - { label: Meet the team, url: team/, icon: fa-solid fa-users, style: primary }
-    - { label: Read our Team API, url: about/, icon: fa-solid fa-handshake, style: ghost }
+    - { label: Meet the team, url: '#team', icon: fa-solid fa-users, style: primary }
+    - { label: Read our Team API, url: '#about', icon: fa-solid fa-handshake, style: ghost }
 
 cards:
   eyebrow: What we maintain
@@ -34,6 +43,58 @@ cards:
       desc: Documentation site with patterns, demos, tools, and how-tos for AI/ML/Data Science on OpenShift.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
+
+mission:
+  eyebrow: What we do
+  title: Mission
+  body: |
+    - Leverage Red Hat AI products like our customers would/might/should
+    - Act as an internal "customer zero" at Red Hat
+    - Help support customers on complex AI topics
+    - Share expertise based on first-hand experience
+    - Push the envelope on what is possible with Red Hat AI!
+
+team:
+  eyebrow: Who we are
+  title: Team
+  type: contributors
+  columns: 3
+  items:
+    - name: Guillaume Moutier
+      image: https://github.com/guimou.png?size=160
+      desc: '[GitHub](https://github.com/guimou) · [LinkedIn](https://www.linkedin.com/in/guillaume-moutier-70aba762)'
+    - name: Erwan Granger
+      image: https://github.com/erwangranger.png?size=160
+      desc: '[GitHub](https://github.com/erwangranger) · [LinkedIn](https://www.linkedin.com/in/erwangranger)'
+    - name: Karl Eklund
+      image: https://github.com/keklundrh.png?size=160
+      desc: '[GitHub](https://github.com/keklundrh) · [LinkedIn](https://www.linkedin.com/in/karl-eklund-a2180515)'
+    - name: Philip Hayes
+      image: https://github.com/deewhyweb.png?size=160
+      desc: '[GitHub](https://github.com/deewhyweb) · [LinkedIn](https://www.linkedin.com/in/philip-hayes-0327532)'
+    - name: Roberto Carratalá
+      image: https://github.com/rcarrata.png?size=160
+      desc: '[GitHub](https://github.com/rcarrata) · [LinkedIn](https://www.linkedin.com/in/rcarrata)'
+    - name: Robert Lundberg
+      image: https://github.com/RHRolun.png?size=160
+      desc: '[GitHub](https://github.com/RHRolun) · [LinkedIn](https://www.linkedin.com/in/rolun)'
+    - name: Cansu Kavili Örnek
+      image: https://github.com/ckavili.png?size=160
+      desc: '[GitHub](https://github.com/ckavili) · [LinkedIn](https://www.linkedin.com/in/ckavili)'
+    - name: Sara
+      image: https://github.com/sarabanderby.png?size=160
+      desc: '[GitHub](https://github.com/sarabanderby)'
+    - name: Will Parker
+      image: https://github.com/willsparker.png?size=160
+      desc: '[GitHub](https://github.com/willsparker)'
+
+about:
+  eyebrow: How to engage
+  desc: How to interact with CAI.
+  title: Team API
+  body: >-
+    This is CAI's Team API. A Team API is a description and specification
+    that a team can define that tells others how to interact with that team.
 
 cta:
   title: How to engage.

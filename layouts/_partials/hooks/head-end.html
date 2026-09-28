@@ -1,0 +1,4 @@
+{{- /* Landing page left-navigation stylesheet. Selectors are scoped to the
+       home landing, so the link is a no-op on pages without the rail. */ -}}
+{{ $sidebarCss := resources.Get "css/landing-sidebar.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $sidebarCss.RelPermalink }}" integrity="{{ $sidebarCss.Data.Integrity }}" crossorigin="anonymous">
