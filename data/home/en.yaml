@@ -1,5 +1,6 @@
 sections:
   - hero
+  - metrics
   - cards
   - type: markdown
     key: mission
@@ -8,16 +9,50 @@ sections:
   - cta
 
 hero:
-  align: center
   eyebrow: Red Hat AI Business Unit
+  image:
+    light: landing/hero-light.svg
+    dark: landing/hero-dark.svg
+    alt: Abstract network illustration of connected Red Hat AI capabilities
+  media:
+    hide_below: lg
+  title_size: 2.8rem
   title_lines:
-    - words: [{ text: "Customer Adoption and Innovation" }]
-    - words: [{ text: "(CAI)" }]
+    - words: [{ text: "Customer Adoption" }]
+    - words: [{ text: "and Innovation" }]
+    - words: [{ mark: "(CAI)", color: red }]
   lead: >-
-    Through advice rooted in real-world experience, we empower customers, partners
-    and colleagues to unlock the full potential of Red Hat AI.
+    We build, deploy, and break Red Hat AI in production before you do —
+    then share what actually works.
+  note: Customer zero for Red Hat AI
   actions:
     - { label: Meet the team, url: '#team', icon: fa-solid fa-users, style: primary }
+
+metrics:
+  animate: true
+  columns: 4
+  eyebrow: Customer zero, in numbers
+  items:
+    - value: 178
+      label: Repositories in rh-aiservices-bu
+      desc: GPU partitioning, LLM ops, benchmarks, and workshops.
+      icon: fa-brands fa-github
+      source: { label: GitHub org, url: "https://github.com/rh-aiservices-bu" }
+    - value: 96
+      label: Ready-to-deploy AI demos
+      desc: RAG, satellite AI, supply chain agents, and voice assistants.
+      icon: fa-solid fa-rocket
+      source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
+    - value: 4
+      label: Dashboard plugins
+      desc: RHOAI Dashboard extensions — Kueue visualizer, Superset, and an admin tool.
+      icon: fa-solid fa-plug
+      source: { label: Community Plugins, url: "https://github.com/rh-ai-community-plugins" }
+    - value: 9
+      label: Team members
+      desc: Customer adoption and innovation across Red Hat AI.
+      icon: fa-solid fa-users
+      source: { label: Meet the team, url: '#team' }
 
 cards:
   eyebrow: What we maintain
@@ -93,7 +128,9 @@ cta:
   title: How to engage.
   text: >-
     Learn and get help at AI on OpenShift, try ready-to-deploy demos in AI Quickstart,
-    propose plugin ideas in Community Plugins — or open an issue in this repository.
-  label: Explore AI on OpenShift
-  url: https://ai-on-openshift.io/
-  style: primary
+    propose plugin ideas in Community Plugins — or open an issue in this repository
+    to work with the team directly.
+  actions:
+    - { label: Learn at AI on OpenShift, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
+    - { label: Try AI Quickstart demos, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
+    - { label: Propose a plugin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }
