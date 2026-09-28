@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Abstract network illustration of connected Red Hat AI capabilities">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6666" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#ff6666" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff6666" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hub" cx="38%" cy="32%" r="80%">
+      <stop offset="0%" stop-color="#ff7373"/>
+      <stop offset="100%" stop-color="#cc3232"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" stroke="#2b3036" stroke-width="1.5" stroke-dasharray="3 9">
+    <circle cx="320" cy="320" r="110"/>
+    <circle cx="320" cy="320" r="180"/>
+    <circle cx="320" cy="320" r="250"/>
+  </g>
+  <g stroke="rgba(255,255,255,0.09)" stroke-width="1">
+    <line x1="320" y1="320" x2="555" y2="234"/>
+    <line x1="320" y1="320" x2="234" y2="85"/>
+    <line x1="320" y1="320" x2="85" y2="406"/>
+    <line x1="320" y1="320" x2="406" y2="555"/>
+    <line x1="320" y1="320" x2="396" y2="157"/>
+    <line x1="320" y1="320" x2="157" y2="244"/>
+    <line x1="320" y1="320" x2="244" y2="483"/>
+    <line x1="320" y1="320" x2="483" y2="244"/>
+    <line x1="320" y1="320" x2="410" y2="257"/>
+    <line x1="320" y1="320" x2="230" y2="257"/>
+    <line x1="320" y1="320" x2="292" y2="426"/>
+    <line x1="555" y1="234" x2="483" y2="244"/>
+    <line x1="234" y1="85" x2="396" y2="157"/>
+    <line x1="85" y1="406" x2="244" y2="483"/>
+  </g>
+  <circle cx="320" cy="320" r="250" fill="url(#halo)"/>
+  <g fill="rgba(255,255,255,0.16)">
+    <circle cx="320" cy="48" r="3"/>
+    <circle cx="606" cy="380" r="3"/>
+    <circle cx="150" cy="560" r="3"/>
+    <circle cx="500" cy="90" r="2.5"/>
+  </g>
+  <g fill="#4a5057" stroke="#1b1f24" stroke-width="3">
+    <circle cx="234" cy="85" r="10"/>
+    <circle cx="85" cy="406" r="10"/>
+    <circle cx="406" cy="555" r="10"/>
+    <circle cx="396" cy="157" r="10"/>
+    <circle cx="157" cy="244" r="10"/>
+    <circle cx="483" cy="244" r="10"/>
+    <circle cx="230" cy="257" r="10"/>
+    <circle cx="292" cy="426" r="10"/>
+  </g>
+  <g fill="#ff6666" stroke="#1b1f24" stroke-width="3">
+    <circle cx="555" cy="234" r="14"/>
+    <circle cx="244" cy="483" r="14"/>
+    <circle cx="410" cy="257" r="12"/>
+  </g>
+  <circle cx="320" cy="320" r="52" fill="url(#halo)"/>
+  <circle cx="320" cy="320" r="30" fill="url(#hub)" stroke="#1b1f24" stroke-width="4"/>
+</svg>

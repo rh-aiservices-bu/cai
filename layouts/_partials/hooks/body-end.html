@@ -1,0 +1,16 @@
+{{- if .IsHome -}}
+<nav class="landing-sidebar d-print-none" aria-label="Page sections">
+  <p class="landing-sidebar__title">Contents</p>
+  <ul class="landing-nav">
+    <li><a class="landing-nav-link" href="#hero">Home</a></li>
+    <li><a class="landing-nav-link" href="#metrics">Numbers</a></li>
+    <li><a class="landing-nav-link" href="#cards">Initiatives</a></li>
+    <li><a class="landing-nav-link" href="#mission">Mission</a></li>
+    <li><a class="landing-nav-link" href="#team">Team</a></li>
+    <li><a class="landing-nav-link" href="#cta">Engage</a></li>
+  </ul>
+</nav>
+{{- end -}}
+{{- /* Landing section nav + scroll-spy; both no-ops without the rail. */ -}}
+{{ $navJs := resources.Get "js/landing-nav.js" | minify | fingerprint }}
+<script defer src="{{ $navJs.RelPermalink }}" integrity="{{ $navJs.Data.Integrity }}" crossorigin="anonymous"></script>

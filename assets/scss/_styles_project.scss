@@ -1,0 +1,138 @@
+// Red Hat brand fonts, vendored locally from static/webfonts/ (no CDN).
+@font-face {
+  font-family: 'Red Hat Display';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300 900;
+  src: url('../webfonts/red-hat-display.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Text';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300 700;
+  src: url('../webfonts/red-hat-text.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Mono';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300 700;
+  src: url('../webfonts/red-hat-mono.woff2') format('woff2');
+}
+
+:root {
+  // Font roles: Text for interface and prose, Display for headings, Mono for code.
+  --td-ui-font-family: 'Red Hat Text', sans-serif;
+  --td-body-font-family: var(--td-ui-font-family);
+  --td-heading-font-family: 'Red Hat Display', sans-serif;
+  --td-display-font-family: var(--td-heading-font-family);
+  --td-code-font-family: 'Red Hat Mono', monospace;
+
+  // Red Hat brand layer, light mode (default was OINK amber #b4762e).
+  --td-brand-copper: #ee0000;
+  --td-brand-copper-dim: rgba(238, 0, 0, 0.6);
+  --td-brand-primary-hover: #be0000;
+
+  // Header bg is theme-scoped: a plain :root definition would cascade the
+  // white band into dark mode (custom properties inherit from :root unless
+  // a theme scope redefines them). data-bs-theme sits on <html> itself.
+  &[data-bs-theme='light'] {
+    --td-brand-header-bg: rgba(255, 255, 255, 0.85);
+  }
+}
+
+[data-bs-theme='dark'] {
+  --td-brand-copper: #ff6666;
+  --td-brand-copper-dim: rgba(255, 102, 102, 0.55);
+  --td-brand-primary-hover: #ff8585;
+  --bs-link-color: #ff6666;
+  --bs-link-color-rgb: 255, 102, 102;
+  --bs-link-hover-color: #ff8585;
+  --bs-link-hover-color-rgb: 255, 133, 133;
+  // Theme's near-black header band (dark default was amber-tinted blue-grey).
+  --td-brand-header-bg: rgba(11, 17, 25, 0.92);
+}
+
+// Red Hat canvas and reading conventions in light mode, overriding the
+// technical preset's blue-grey shell palette. Light-only scope: a plain :root
+// here would tie the dark palette on specificity and leak into dark mode.
+[data-bs-theme='light'] {
+  --bs-body-bg: #fff;
+  --bs-body-color: #151515;
+  --bs-link-color: #ee0000;
+  --bs-link-color-rgb: 238, 0, 0;
+  --bs-link-hover-color: #be0000;
+  --bs-link-hover-color-rgb: 190, 0, 0;
+}
+
+// Body headings on plain sections (team, about) take the heading role; the
+// theme's .td-content h1-h6 rule does not reach pages outside a docs wrapper.
+.td-main h1, .td-main h2 {
+  font-family: var(--td-heading-font-family);
+}
+
+// No company logo mark: the site name is the wordmark.
+.td-site-header .td-nav-logo {
+  display: none;
+}
+
+// Whole-card click target for the initiative cards (pattern from the theme's
+// logo tiles): the card link stretches an invisible overlay across the card,
+// and the focus ring traces the card rather than the arrow. The card already
+// transitions border/box-shadow on hover from the theme.
+.td-landing-card {
+  position: relative;
+
+  > .td-landing-card-link {
+    &::after {
+      position: absolute;
+      content: '';
+      inset: 0;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  &:has(> .td-landing-card-link:focus-visible) {
+    outline: 2px solid var(--td-copper);
+    outline-offset: 3px;
+  }
+}
+
+// Hero marked word retint: oink's --red is terracotta #cf4439; the brand
+// layer pairs --td-brand-copper with Red Hat red and flips per theme.
+.td-landing-initial--red {
+  color: var(--td-brand-copper);
+}
+
+// Primary landing button retint: oink hard-codes its blue #2f6793; the brand
+// layer pairs the brand copper with Red Hat red, flipping per theme.
+.td-landing-button--primary {
+  background: var(--td-brand-copper);
+  box-shadow: 0 6px 22px var(--td-brand-copper-dim);
+
+  &:hover {
+    background: var(--td-brand-primary-hover);
+    box-shadow: 0 10px 30px var(--td-brand-copper-dim);
+  }
+}
+
+// Team hierarchy (director request): Erwan, the director, features centered
+// on his own row; the eight team members flow beneath in the grid.
+.td-landing-contributor--director {
+  grid-column: 1 / -1;
+  width: fit-content;
+  margin-inline: auto;
+
+  .td-landing-contributor__avatar {
+    width: 64px;
+    height: 64px;
+    outline: 2px solid var(--td-brand-copper);
+    outline-offset: 2px;
+  }
+}
