@@ -1,29 +1,30 @@
-Welcome to the CAI Team Page 👋
+# rh-aiservices-bu/cai
 
-The Customer Adoption & Innovation team is part of the Red Hat AI Business Unit. 
+Team page for the **Customer Adoption & Innovation (CAI)** team, Red Hat AI Business Unit.
+Built with [Hugo](https://gohugo.io/) and the [OINK](https://github.com/pgsty/oink) theme,
+deployed to GitHub Pages at https://rh-aiservices-bu.github.io/cai/.
 
-# Team Motto 🏍️
+## Preview locally
 
-- Through advice rooted in real-world experience,
-- we empower customers, partners and colleagues,
-- to unlock the full potential of Red Hat AI.
+Requires Hugo Extended ≥ 0.165 and Go ≥ 1.27 (no Node.js):
 
-# 😌 What do we do?
+```sh
+hugo server
+```
 
-- Leverage Red Hat AI products like our customers would/might/should
-- Act as an internal "customer zero" at Red hat
-- Help support customers on complex AI topics
-- Share expertise based on first-hand experience
-- Push the envelope on what is possible with Red Hat AI!
+## Deploy
 
-# 🔮 Team Members
+1. Repo **Settings → Pages → Source: GitHub Actions** (one-time).
+2. Push to `main`, or run **Deploy to GitHub Pages** from the Actions tab.
 
-- [@guimou](https://github.com/guimou)
-- [@erwangranger](https://github.com/erwangranger)
-- [@keklundrh](https://github.com/keklundrh/)
-- [@deewhyweb](https://github.com/deewhyweb)
-- [@rcarrata](https://github.com/rcarrata)
-- [@RHRolun](https://github.com/RHRolun)
-- [@ckavili](https://github.com/ckavili/)
-- [@abanderb](https://github.com/sarabanderby)
-- [@willsparker](https://github.com/willsparker)
+The workflow (`.github/workflows/github-pages.yaml`) pins Hugo 0.165.0, resolves the
+OINK module from `go.mod`/`go.sum`, and builds warning-strict.
+
+## Content map
+
+| Path | What it is |
+| --- | --- |
+| `data/home/en.yaml` | Landing page sections (hero, initiative cards, engage CTA) |
+| `content/team/_index.md` | Team page — what we do, member table |
+| `content/about/_index.md` | Team API page |
+| `hugo.yaml` | The only site configuration file |

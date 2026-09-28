@@ -1,0 +1,21 @@
+# Hugo build
+/public/
+/resources/
+/.hugo_cache/
+/.hugo_build.lock
+
+# Jekyll leftover
+/_site/
+
+# Editors
+.vscode/
+.idea/
+*.sublime-*
+
+# Temp / backup files
+*.tmp
+*.swp
+*~
+
+# OS
+.DS_Store

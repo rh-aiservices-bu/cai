@@ -1,0 +1,45 @@
+sections: [hero, cards, cta]
+
+hero:
+  align: center
+  eyebrow: Red Hat AI Business Unit
+  title_lines:
+    - words: [{ text: "Customer Adoption and Innovation" }]
+    - words: [{ text: "(CAI)" }]
+  lead: >-
+    Through advice rooted in real-world experience, we empower customers, partners
+    and colleagues to unlock the full potential of Red Hat AI.
+  actions:
+    - { label: Meet the team, url: team/, icon: fa-solid fa-users, style: primary }
+    - { label: Read our Team API, url: about/, icon: fa-solid fa-handshake, style: ghost }
+
+cards:
+  eyebrow: What we maintain
+  title: Initiatives
+  columns: 2
+  items:
+    - title: Red Hat AI
+      desc: Our main org — 178 repos covering GPU partitioning, LLM ops, benchmarks, and workshops.
+      icon: fa-solid fa-layer-group
+      url: https://github.com/rh-aiservices-bu
+    - title: Community Plugins
+      desc: RHOAI Dashboard plugins extending Red Hat OpenShift AI — Kueue visualizer, Superset, admin tool.
+      icon: fa-solid fa-plug
+      url: https://github.com/rh-ai-community-plugins
+    - title: AI Quickstart
+      desc: 96 ready-to-deploy AI demos — RAG, satellite AI, supply chain agents, voice assistants.
+      icon: fa-solid fa-rocket
+      url: https://github.com/rh-ai-quickstart
+    - title: AI on OpenShift
+      desc: Documentation site with patterns, demos, tools, and how-tos for AI/ML/Data Science on OpenShift.
+      icon: fa-solid fa-book-open
+      url: https://ai-on-openshift.io/
+
+cta:
+  title: How to engage.
+  text: >-
+    Learn and get help at AI on OpenShift, try ready-to-deploy demos in AI Quickstart,
+    propose plugin ideas in Community Plugins — or open an issue in this repository.
+  label: Explore AI on OpenShift
+  url: https://ai-on-openshift.io/
+  style: primary
