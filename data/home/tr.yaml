@@ -80,7 +80,7 @@ cards:
       url: https://github.com/rh-ai-quickstart
       external: true
     - title: AI on OpenShift
-      desc: OpenShift'te yapay zeka öğrenmek isteyenler için — desenler, demolar, araçlar ve rehberler.
+      desc: OpenShift'te yapay zeka öğrenmek isteyenler için — pattern'ler, demolar, araçlar ve rehberler.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true

@@ -79,7 +79,7 @@ cards:
       url: https://github.com/rh-ai-quickstart
       external: true
     - title: AI on OpenShift
-      desc: Für alle, die KI auf OpenShift lernen — Muster, Demos, Tools und Anleitungen.
+      desc: Für alle, die KI auf OpenShift lernen — Patterns, Demos, Tools und Anleitungen.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true

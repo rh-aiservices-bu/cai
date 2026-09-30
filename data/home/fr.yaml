@@ -85,7 +85,7 @@ cards:
       url: https://ai-on-openshift.io/
       external: true
     - title: AI500 MLOps Enablement
-      desc: Pour les équipes qui montent en compétences MLOps — AI500, labo couvrant expérimentation, entraînement automatisé et livraison des modèles.
+      desc: Pour les équipes qui montent en compétences MLOps — AI500, lab couvrant expérimentation, entraînement automatisé et livraison des modèles.
       icon: fa-solid fa-infinity
       url: https://github.com/rhoai-mlops
       external: true
