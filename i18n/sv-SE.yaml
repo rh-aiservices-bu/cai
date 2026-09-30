@@ -1,5 +1,5 @@
 # Project strings: landing left-nav rail (layouts/_partials/hooks/body-end.html).
-nav_contents: Innehåll
+# nav_contents: Innehåll
 nav_page_sections: Sidsektioner
 nav_home: Startsida
 nav_numbers: Siffror

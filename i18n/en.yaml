@@ -1,5 +1,5 @@
 # Project strings: landing left-nav rail (layouts/_partials/hooks/body-end.html).
-nav_contents: Contents
+# nav_contents: Contents
 nav_page_sections: Page sections
 nav_home: Home
 nav_numbers: Numbers
