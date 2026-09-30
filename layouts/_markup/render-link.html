@@ -1,0 +1,5 @@
+{{- /* Links to other sites open in a new tab; same-page anchors and same-site links do not. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $siteHost := (urls.Parse .Page.Site.BaseURL).Host -}}
+{{- $external := and (ne $u.Host "") (ne $u.Host $siteHost) -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text }}</a>
