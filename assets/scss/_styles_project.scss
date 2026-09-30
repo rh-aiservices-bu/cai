@@ -140,11 +140,12 @@
 // Engage CTA (request): the three action buttons stack vertically on the
 // right of the card, which gives the text the width the horizontal row was
 // taking. Desktop only — the theme already stacks full-width buttons below
-// 768px. The stack hugs the left edge of its column so the buttons align.
+// 768px. Stretch makes the three buttons share one width (the widest label)
+// instead of each hugging its own text.
 @media (min-width: 769px) {
   .td-landing-final-cta__actions {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
   }
 }
 
