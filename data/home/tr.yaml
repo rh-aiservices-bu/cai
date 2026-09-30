@@ -3,13 +3,15 @@ sections:
   - metrics
   - cards
   - type: markdown
+    key: tutorials
+  - type: markdown
     key: mission
   - type: contributors
     key: team
   - cta
 
 hero:
-  eyebrow: Red Hat AI İş Birimi
+  eyebrow: CAI ekibi · Red Hat AI İş Birimi
   image:
     light: landing/hero-light.svg
     dark: landing/hero-dark.svg
@@ -22,12 +24,13 @@ hero:
     - words: [{ text: "and Innovation" }]
     - words: [{ mark: "(CAI)", color: red }]
   lead: >-
-    Red Hat AI'yi üretime yakın ortamlarda dağıtıyor, kullanıyor ve sahada test ediyoruz.
-    Ardından edindiğimiz bilgileri, en iyi uygulamaları ve desenleri meslektaşlarımızla
-    ve müşterilerimizle paylaşıyoruz.
-  # note: Customer zero for Red Hat AI
+    Red Hat AI'yi üretime yakın ortamlarda dağıtıyor, kullanıyor ve test
+    ediyoruz; ardından işe yarayanları müşterilerimizle, iş ortaklarımızla ve
+    meslektaşlarımızla paylaşıyoruz, böylece tam potansiyelinin kilidini
+    açmalarına yardımcı oluyoruz.
   actions:
     - { label: Ekibi tanıyın, url: '#team', icon: fa-solid fa-users, style: primary }
+    - { label: Neler geliştirdiğimizi görün, url: '#cards', icon: fa-solid fa-layer-group, style: ghost }
 
 metrics:
   animate: true
@@ -39,24 +42,25 @@ metrics:
       desc: GPU bölümleme, LLM işlemleri, kıyaslamalar ve atölyeler.
       icon: fa-brands fa-github
       source: { label: GitHub organizasyonu, url: "https://github.com/rh-aiservices-bu" }
-    - value: 96
-      label: Dağıtmaya hazır yapay zeka demoları
+    - value: 70
+      suffix: "+"
+      label: Ekibin geliştirdiği demolar
       desc: RAG, uydu yapay zekası, tedarik zinciri ajanları ve sesli asistanlar.
       icon: fa-solid fa-rocket
       source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
     - value: 6
       label: Pano eklentileri
-      desc: Red Hat AI topluluk uzantıları.
+      desc: Quickstarts manager, Kueue visualizer, Apache Superset ve daha fazlası.
       icon: fa-solid fa-plug
       source: { label: Community Plugins, url: "https://github.com/rh-ai-community-plugins" }
     - value: 9
       label: Ekip üyeleri
-      desc: Red Hat AI genelinde müşteri benimseme ve inovasyon.
+      desc: MLOps ve GenAIOps eğitimleri, quickstart'lar ve eklentiler.
       icon: fa-solid fa-users
       source: { label: Ekibi tanıyın, url: '#team' }
 
 cards:
-  eyebrow: Oluşturmamıza ve sürdürmemize yardımcı olduğumuz çalışmalar
+  eyebrow: Oluşturduğumuz ve sürdürdüğümüz çalışmalar
   title: Girişimler
   columns: 2
   items:
@@ -86,17 +90,40 @@ cards:
       url: https://github.com/rhoai-mlops
       external: true
     - title: AI501 GenAIOps Enablement
-      desc: AI501 — GenAI iş yüklerini üretimde çalıştırmaya yönelik laboratuvar talimatları, sunumlar ve dağıtım araçlarını kapsayan 5 günlük GenAI Ops yetkinlik atölyesi.
+      desc: AI501 — GenAI iş yüklerini üretimde çalıştırmaya yönelik laboratuvar talimatları, sunumlar ve dağıtım araçlarını kapsayan 5 günlük GenAIOps yetkinlik atölyesi.
       icon: fa-solid fa-graduation-cap
       url: https://github.com/rhoai-genaiops
       external: true
+    - title: LiteMaaS
+      desc: Red Hat OpenShift AI üzerinde Model-as-a-Service platformu.
+      icon: fa-solid fa-server
+      url: https://red.ht/litemaas
+      external: true
+    - title: Parasol atölyesi
+      desc: Red Hat Demo Platform üzerinde uygulamalı yapay zeka atölyesi.
+      icon: fa-solid fa-person-chalkboard
+      url: https://red.ht/parasol
+      external: true
+
+tutorials:
+  eyebrow: Öğren
+  title: Eğitimler
+  body: |
+    - [RHOAI MaaS rehberi](https://github.com/rh-aiservices-bu/rhoai-maas-guide) — Red Hat OpenShift AI'da modelleri hizmet olarak kullanmak
+    - [Bağlantısız RHOAI](https://github.com/rh-aiservices-bu/disconnected-rhoai) — Red Hat OpenShift AI'ı bağlantısız (air-gapped) ortamlarda çalıştırmak
+    - [GPU bölümleme rehberi](https://github.com/rh-aiservices-bu/gpu-partitioning-guide) — OpenShift üzerinde yapay zeka iş yükleri için GPU'ları bölümlemek
+    - [RHOAI 2.25 → 3.5 geçiş rehberi](https://github.com/rh-aiservices-bu/rhoai-2.25-3.5-migration-guide) — Red Hat OpenShift AI'ı 2.25'ten 3.5'e geçirmek
 
 mission:
   eyebrow: Ne yapıyoruz
   title: Misyon
   body: |
+    Gerçek dünya deneyimine dayanan tavsiyelerle müşterilerimizin, iş
+    ortaklarımızın ve meslektaşlarımızın Red Hat AI'ın tam potansiyelinin
+    kilidini açmasını sağlıyoruz.
+
     - Red Hat AI ürünlerini müşterilerimizin kullanacağı şekilde değerlendirmek
-    - Red Hat'te dahili bir "müşteri sıfırı" olarak hareket etmek
+    - Red Hat'te dahili bir "müşteri sıfırı" olarak hareket etmek — ürünlerimizi müşterilerin zorunda kalmadan önce kendimizde kanıtlamak
     - Müşterilerin karmaşık yapay zeka konularında desteklenmesine yardımcı olmak
     - Birinci elden deneyime dayalı uzmanlık paylaşmak
     - Red Hat AI ile nelerin mümkün olduğunu sınırlarına kadar zorlamak!
@@ -138,7 +165,7 @@ team:
       desc: '[GitHub](https://github.com/willsparker) · [LinkedIn](https://www.linkedin.com/in/willsparker98)'
 
 cta:
-  title: Bize nasıl ulaşabilirsiniz
+  title: Nasıl başlanır
   text: >-
     AI on OpenShift'te öğrenin ve yardım alın, AI Quickstart'ta dağıtmaya hazır
     demoları deneyin, Community Plugins'te eklenti fikirleri önerin — ya da ekiple
@@ -146,4 +173,4 @@ cta:
   actions:
     - { label: AI on OpenShift'te öğrenin, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
     - { label: AI Quickstart demolarını deneyin, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
-    - { label: Eklenti önerin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }
+    - { label: Topluluk eklentisi önerin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }

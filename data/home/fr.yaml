@@ -3,13 +3,15 @@ sections:
   - metrics
   - cards
   - type: markdown
+    key: tutorials
+  - type: markdown
     key: mission
   - type: contributors
     key: team
   - cta
 
 hero:
-  eyebrow: Business Unit IA de Red Hat
+  eyebrow: L'équipe CAI · Business Unit IA de Red Hat
   image:
     light: landing/hero-light.svg
     dark: landing/hero-dark.svg
@@ -23,11 +25,12 @@ hero:
     - words: [{ mark: "(CAI)", color: red }]
   lead: >-
     Nous déployons, utilisons et éprouvons Red Hat AI dans des environnements
-    proches de la production. Nous partageons ensuite nos apprentissages,
-    bonnes pratiques et patterns avec nos collègues et nos clients.
-  # note: Customer zero for Red Hat AI
+    proches de la production, puis nous partageons ce qui fonctionne avec nos
+    clients, partenaires et collègues, pour les aider à en libérer tout le
+    potentiel.
   actions:
     - { label: Rencontrez l'équipe, url: '#team', icon: fa-solid fa-users, style: primary }
+    - { label: Voir ce que nous créons, url: '#cards', icon: fa-solid fa-layer-group, style: ghost }
 
 metrics:
   animate: true
@@ -39,24 +42,25 @@ metrics:
       desc: Partitionnement GPU, opérations LLM, benchmarks et ateliers.
       icon: fa-brands fa-github
       source: { label: Organisation GitHub, url: "https://github.com/rh-aiservices-bu" }
-    - value: 96
-      label: Démos IA prêtes à déployer
+    - value: 70
+      suffix: "+"
+      label: Démos créées par l'équipe
       desc: RAG, IA satellite, agents de chaîne d'approvisionnement et assistants vocaux.
       icon: fa-solid fa-rocket
       source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
     - value: 6
       label: Plugins de tableau de bord
-      desc: Extensions communautaires de Red Hat AI.
+      desc: Quickstarts manager, Kueue visualizer, Apache Superset, entre autres.
       icon: fa-solid fa-plug
       source: { label: Plugins communautaires, url: "https://github.com/rh-ai-community-plugins" }
     - value: 9
       label: Membres de l'équipe
-      desc: Adoption clients et innovation pour Red Hat AI.
+      desc: Enablement MLOps et GenAIOps, quickstarts et plugins.
       icon: fa-solid fa-users
       source: { label: Rencontrez l'équipe, url: '#team' }
 
 cards:
-  eyebrow: Ce que nous avons contribué à créer et maintenir
+  eyebrow: Ce que nous créons et maintenons
   title: Initiatives
   columns: 2
   items:
@@ -90,13 +94,36 @@ cards:
       icon: fa-solid fa-graduation-cap
       url: https://github.com/rhoai-genaiops
       external: true
+    - title: LiteMaaS
+      desc: Plateforme Model-as-a-Service sur Red Hat OpenShift AI.
+      icon: fa-solid fa-server
+      url: https://red.ht/litemaas
+      external: true
+    - title: Atelier Parasol
+      desc: Atelier IA pratique sur la Red Hat Demo Platform.
+      icon: fa-solid fa-person-chalkboard
+      url: https://red.ht/parasol
+      external: true
+
+tutorials:
+  eyebrow: Apprendre
+  title: Tutoriels
+  body: |
+    - [Guide RHOAI MaaS](https://github.com/rh-aiservices-bu/rhoai-maas-guide) — utiliser les modèles as-a-service dans Red Hat OpenShift AI
+    - [RHOAI déconnecté](https://github.com/rh-aiservices-bu/disconnected-rhoai) — exécuter Red Hat OpenShift AI dans des environnements déconnectés (air-gapped)
+    - [Guide de partitionnement GPU](https://github.com/rh-aiservices-bu/gpu-partitioning-guide) — partitionner les GPU pour les charges de travail IA sur OpenShift
+    - [Guide de migration RHOAI 2.25 → 3.5](https://github.com/rh-aiservices-bu/rhoai-2.25-3.5-migration-guide) — migrer Red Hat OpenShift AI de 2.25 vers 3.5
 
 mission:
   eyebrow: Ce que nous faisons
   title: Mission
   body: |
-    - Utiliser les produits Red Hat AI comme nos clients le feraient/pourraient/devraient
-    - Agir comme « client zéro » interne chez Red Hat
+    Grâce à des conseils ancrés dans l'expérience du terrain, nous donnons à nos
+    clients, partenaires et collègues les moyens de libérer tout le potentiel
+    de Red Hat AI.
+
+    - Utiliser les produits Red Hat AI comme nos clients le feraient
+    - Agir comme « client zéro » interne chez Red Hat — prouver nos produits sur nous-mêmes avant que les clients n'aient à le faire
     - Aider nos clients sur des sujets IA complexes
     - Partager notre expertise issue de l'expérience de terrain
     - Repousser les limites du possible avec Red Hat AI !
@@ -130,7 +157,7 @@ team:
     - name: Philip Hayes
       image: https://github.com/deewhyweb.png?size=160
       desc: '[GitHub](https://github.com/deewhyweb) · [LinkedIn](https://www.linkedin.com/in/philip-hayes-0327532)'
-    - name: Sara
+    - name: Sara Banderby
       image: https://github.com/sarabanderby.png?size=160
       desc: '[GitHub](https://github.com/sarabanderby) · [LinkedIn](https://www.linkedin.com/in/annelisarabanderby)'
     - name: Will Parker
@@ -138,7 +165,7 @@ team:
       desc: '[GitHub](https://github.com/willsparker) · [LinkedIn](https://www.linkedin.com/in/willsparker98)'
 
 cta:
-  title: Comment nous solliciter.
+  title: Comment démarrer
   text: >-
     Apprenez et obtenez de l'aide sur AI on OpenShift, essayez des démos prêtes
     à déployer dans AI Quickstart, proposez des idées de plugins dans Community
@@ -147,4 +174,4 @@ cta:
   actions:
     - { label: Apprendre sur AI on OpenShift, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
     - { label: Essayer les démos AI Quickstart, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
-    - { label: Proposer un plugin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }
+    - { label: Proposer un plugin communautaire, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }

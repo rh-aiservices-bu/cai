@@ -1,6 +1,6 @@
 # rh-aiservices-bu/cai
 
-Team page for the **Customer Adoption & Innovation (CAI)** team, Red Hat AI Business Unit.
+Team page for the **Customer Adoption and Innovation (CAI)** team, Red Hat AI Business Unit.
 Built with [Hugo](https://gohugo.io/) and the [OINK](https://github.com/pgsty/oink) theme,
 deployed to GitHub Pages at https://rh-aiservices-bu.github.io/cai/.
 
@@ -31,7 +31,7 @@ OINK module from `go.mod`/`go.sum`, and builds warning-strict.
 
 | Path | What it is |
 | --- | --- |
-| `data/home/en.yaml` | Landing page sections (hero, metrics, initiative cards, mission, team, engage CTA) |
+| `data/home/en.yaml` | Landing page sections (hero, metrics, initiative cards, tutorials, mission, team, get-started CTA) |
 | `data/home/fr.yaml` | French landing sections; `es/de/sv/it/tr` peers in the same folder (resolved per language by the theme; hero title and brand name stay English) |
 | `content/_index.md` | Home page front matter (title, description) |
 | `content/_index.fr.md` | French home page front matter; `es/de/sv/it/tr` peers in the same folder |
