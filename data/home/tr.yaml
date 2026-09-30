@@ -65,44 +65,44 @@ cards:
   columns: 2
   items:
     - title: Red Hat AI GitHub organizasyonu
-      desc: Ana organizasyonumuz — her türlü yapay zeka projesini, prototipini ve yardımcı aracını kapsayan 178 depo.
+      desc: Herkes için — yapay zeka projeleri, prototipleri ve yardımcı araçları kapsayan 178 depolu ana organizasyonumuz.
       icon: fa-solid fa-layer-group
       url: https://github.com/rh-aiservices-bu
       external: true
     - title: Red Hat AI Community Plugins
-      desc: Red Hat OpenShift AI'ı genişleten Red Hat AI Enterprise topluluk eklentileri.
+      desc: RHAIE yöneticileri için — Red Hat OpenShift AI'ı genişleten topluluk eklentileri.
       icon: fa-solid fa-plug
       url: https://github.com/rh-ai-community-plugins
       external: true
     - title: AI Quickstarts
-      desc: Yapay zekanın gerçek dünya iş sorunlarını nasıl çözebileceğini gösteren, sektörlere uyumlu ve sonuca odaklı örnekler.
+      desc: Geliştiriciler için — yapay zekanın gerçek iş sorunlarını nasıl çözdüğünü gösteren sonuca odaklı örnekler.
       icon: fa-solid fa-rocket
       url: https://github.com/rh-ai-quickstart
       external: true
     - title: AI on OpenShift
-      desc: OpenShift üzerinde yapay zeka/makine öğrenmesi/veri bilimi için desenler, demolar, araçlar ve nasıl yapılır rehberleri içeren dokümantasyon sitesi.
+      desc: OpenShift'te yapay zeka öğrenmek isteyenler için — desenler, demolar, araçlar ve rehberler.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true
     - title: AI500 MLOps Enablement
-      desc: Model eğitimi ve teslimini otomatikleştirmeye yönelik laboratuvar talimatları, dağıtım betikleri ve araçları kapsayan MLOps yetkinlik laboratuvarı.
+      desc: MLOps becerisi geliştiren ekipler için — AI500, deney, otomatik model eğitimi ve teslimi kapsayan laboratuvar.
       icon: fa-solid fa-infinity
       url: https://github.com/rhoai-mlops
       external: true
     - title: AI501 GenAIOps Enablement
-      desc: AI501 — GenAI iş yüklerini üretimde çalıştırmaya yönelik laboratuvar talimatları, sunumlar ve dağıtım araçlarını kapsayan 5 günlük GenAIOps yetkinlik atölyesi.
+      desc: GenAI'ı üretimde çalıştıran ekipler için — AI501, laboratuvar talimatları, sunumlar ve dağıtım araçları içeren 5 günlük atölye.
       icon: fa-solid fa-graduation-cap
       url: https://github.com/rhoai-genaiops
       external: true
     - title: LiteMaaS
-      desc: Red Hat OpenShift AI üzerinde Model-as-a-Service platformu.
+      desc: Platform ekipleri için — LLM abonelikleri, API anahtarları ve kullanım takibi için kavram kanıtı; LiteLLM ile entegre.
       icon: fa-solid fa-server
-      url: https://red.ht/litemaas
+      url: https://github.com/rh-aiservices-bu/litemaas
       external: true
     - title: Parasol atölyesi
-      desc: Red Hat Demo Platform üzerinde uygulamalı yapay zeka atölyesi.
+      desc: Uygulayarak öğrenenler için — RHOAI kümesinde Parasol Insurance demosunun dağıtım tarifi.
       icon: fa-solid fa-person-chalkboard
-      url: https://red.ht/parasol
+      url: https://github.com/rh-aiservices-bu/parasol-demo-deployment
       external: true
 
 tutorials:

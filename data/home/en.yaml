@@ -64,44 +64,44 @@ cards:
   columns: 2
   items:
     - title: Red Hat AI GitHub org
-      desc: Our main org — 178 repos covering all sorts of AI projects, prototypes, and utilities.
+      desc: For everyone — our main org with 178 repos covering AI projects, prototypes, and utilities.
       icon: fa-solid fa-layer-group
       url: https://github.com/rh-aiservices-bu
       external: true
     - title: Red Hat AI Community Plugins
-      desc: Red Hat AI Enterprise Community Plugins, extending Red Hat OpenShift AI.
+      desc: For RHAIE admins — community plugins extending Red Hat OpenShift AI.
       icon: fa-solid fa-plug
       url: https://github.com/rh-ai-community-plugins
       external: true
     - title: AI Quickstarts
-      desc: Vertically aligned, outcome-focused example of how AI can solve real-world business problems.
+      desc: For developers — outcome-focused examples of how AI solves real business problems.
       icon: fa-solid fa-rocket
       url: https://github.com/rh-ai-quickstart
       external: true
     - title: AI on OpenShift
-      desc: Documentation site with patterns, demos, tools, and how-tos for AI/ML/Data Science on OpenShift.
+      desc: For anyone learning AI on OpenShift — patterns, demos, tools, and how-tos.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true
     - title: AI500 MLOps Enablement
-      desc: AI500 — MLOps enablement lab covering experimentation, automated model training, and delivery, with lab instructions, deploy-lab scripts, and deployment tooling.
+      desc: For teams building MLOps skills — AI500 lab covering experimentation, automated model training, and delivery.
       icon: fa-solid fa-infinity
       url: https://github.com/rhoai-mlops
       external: true
     - title: AI501 GenAIOps Enablement
-      desc: AI501 — 5-day GenAIOps enablement workshop covering lab instructions, slides, and deployment tooling for running GenAI workloads in production.
+      desc: For teams running GenAI in production — AI501, a 5-day workshop with labs, slides, and deployment tooling.
       icon: fa-solid fa-graduation-cap
       url: https://github.com/rhoai-genaiops
       external: true
     - title: LiteMaaS
-      desc: Model-as-a-Service platform on Red Hat OpenShift AI.
+      desc: For platform teams — proof-of-concept for LLM subscriptions, API keys, and usage tracking, integrating with LiteLLM.
       icon: fa-solid fa-server
-      url: https://red.ht/litemaas
+      url: https://github.com/rh-aiservices-bu/litemaas
       external: true
     - title: Parasol workshop
-      desc: Hands-on AI workshop on the Red Hat Demo Platform.
+      desc: For hands-on learners — deployment recipe for the Parasol Insurance demo on a RHOAI cluster.
       icon: fa-solid fa-person-chalkboard
-      url: https://red.ht/parasol
+      url: https://github.com/rh-aiservices-bu/parasol-demo-deployment
       external: true
 
 tutorials:
