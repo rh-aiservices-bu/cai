@@ -1,4 +1,4 @@
 ---
 title: Customer Adoption and Innovation (CAI)
-description: Il team Customer Adoption & Innovation dell'unità di business IA di Red Hat.
+description: Il team Customer Adoption & Innovation dell'unità di business IA di Red Hat — iniziative, demo, plugin e come contattarci.
 ---

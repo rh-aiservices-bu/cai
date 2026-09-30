@@ -3,13 +3,15 @@ sections:
   - metrics
   - cards
   - type: markdown
+    key: tutorials
+  - type: markdown
     key: mission
   - type: contributors
     key: team
   - cta
 
 hero:
-  eyebrow: Red Hat AI Business Unit
+  eyebrow: The CAI team · Red Hat AI Business Unit
   image:
     light: landing/hero-light.svg
     dark: landing/hero-dark.svg
@@ -22,11 +24,12 @@ hero:
     - words: [{ text: "and Innovation" }]
     - words: [{ mark: "(CAI)", color: red }]
   lead: >-
-    We deploy, use, and battle-test Red Hat AI in production-like environments.
-    We then share our learnings, best practices, and patterns with colleagues and customers.
-  # note: Customer zero for Red Hat AI
+    We deploy, use, and battle-test Red Hat AI in production-like environments —
+    then share what works with customers, partners, and colleagues, so they can
+    unlock its full potential.
   actions:
     - { label: Meet the team, url: '#team', icon: fa-solid fa-users, style: primary }
+    - { label: See what we've built, url: '#cards', icon: fa-solid fa-layer-group, style: ghost }
 
 metrics:
   animate: true
@@ -38,64 +41,87 @@ metrics:
       desc: GPU partitioning, LLM ops, benchmarks, and workshops.
       icon: fa-brands fa-github
       source: { label: GitHub org, url: "https://github.com/rh-aiservices-bu" }
-    - value: 96
-      label: Ready-to-deploy AI demos
+    - value: 70
+      suffix: "+"
+      label: Demos built by the team
       desc: RAG, satellite AI, supply chain agents, and voice assistants.
       icon: fa-solid fa-rocket
       source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
     - value: 6
       label: Dashboard plugins
-      desc: Red Hat AI community extensions.
+      desc: Quickstarts manager, Kueue visualizer, Apache Superset, and more.
       icon: fa-solid fa-plug
       source: { label: Community Plugins, url: "https://github.com/rh-ai-community-plugins" }
     - value: 9
       label: Team members
-      desc: Customer adoption and innovation across Red Hat AI.
+      desc: MLOps and GenAIOps enablement, quickstarts, and plugins.
       icon: fa-solid fa-users
       source: { label: Meet the team, url: '#team' }
 
 cards:
-  eyebrow: What we helped create and maintain
+  eyebrow: What we build and maintain
   title: Initiatives
   columns: 2
   items:
-    - title: Red Hat AI github org
-      desc: Our main org — 178 repos covering all sorts of AI projects, prototypes, and utilities.
+    - title: Red Hat AI GitHub org
+      desc: For everyone — our main org with 178 repos covering AI projects, prototypes, and utilities.
       icon: fa-solid fa-layer-group
       url: https://github.com/rh-aiservices-bu
       external: true
     - title: Red Hat AI Community Plugins
-      desc: Red Hat AI Enterprise Community Plugins, extending Red Hat OpenShift AI.
+      desc: For RHAIE admins — community plugins extending Red Hat OpenShift AI.
       icon: fa-solid fa-plug
       url: https://github.com/rh-ai-community-plugins
       external: true
     - title: AI Quickstarts
-      desc: Vertically aligned, outcome-focused example of how AI can solve real-world business problems.
+      desc: For developers — outcome-focused examples of how AI solves real business problems.
       icon: fa-solid fa-rocket
       url: https://github.com/rh-ai-quickstart
       external: true
     - title: AI on OpenShift
-      desc: Documentation site with patterns, demos, tools, and how-tos for AI/ML/Data Science on OpenShift.
+      desc: For anyone learning AI on OpenShift — patterns, demos, tools, and how-tos.
       icon: fa-solid fa-book-open
       url: https://ai-on-openshift.io/
       external: true
     - title: AI500 MLOps Enablement
-      desc: AI500 — MLOps enablement lab covering experimentation, automated model training, and delivery, with lab instructions, deploy-lab scripts, and deployment tooling.
+      desc: For teams building MLOps skills — AI500 lab covering experimentation, automated model training, and delivery.
       icon: fa-solid fa-infinity
       url: https://github.com/rhoai-mlops
       external: true
     - title: AI501 GenAIOps Enablement
-      desc: AI501 — 5-day GenAI Ops enablement workshop covering lab instructions, slides, and deployment tooling for running GenAI workloads in production.
+      desc: For teams running GenAI in production — AI501, a 5-day workshop with labs, slides, and deployment tooling.
       icon: fa-solid fa-graduation-cap
       url: https://github.com/rhoai-genaiops
       external: true
+    - title: LiteMaaS
+      desc: For platform teams — proof-of-concept for LLM subscriptions, API keys, and usage tracking, integrating with LiteLLM.
+      icon: fa-solid fa-server
+      url: https://github.com/rh-aiservices-bu/litemaas
+      external: true
+    - title: Parasol workshop
+      desc: For hands-on learners — deployment recipe for the Parasol Insurance demo on a RHOAI cluster.
+      icon: fa-solid fa-person-chalkboard
+      url: https://github.com/rh-aiservices-bu/parasol-demo-deployment
+      external: true
+
+tutorials:
+  eyebrow: Learn
+  title: Tutorials
+  body: |
+    - [RHOAI MaaS guide](https://github.com/rh-aiservices-bu/rhoai-maas-guide) — use models as a service in Red Hat OpenShift AI
+    - [Disconnected RHOAI](https://github.com/rh-aiservices-bu/disconnected-rhoai) — run Red Hat OpenShift AI in disconnected (air-gapped) environments
+    - [GPU partitioning guide](https://github.com/rh-aiservices-bu/gpu-partitioning-guide) — partition GPUs for AI workloads on OpenShift
+    - [RHOAI 2.25 → 3.5 migration guide](https://github.com/rh-aiservices-bu/rhoai-2.25-3.5-migration-guide) — migrate Red Hat OpenShift AI from 2.25 to 3.5
 
 mission:
   eyebrow: What we do
   title: Mission
   body: |
+    Through advice rooted in real-world experience, we empower customers,
+    partners and colleagues, to unlock the full potential of Red Hat AI.
+
     - Leverage Red Hat AI products like our customers do
-    - Act as an internal "customer zero" at Red Hat
+    - Act as an internal "customer zero" at Red Hat — proving our products on ourselves before customers have to
     - Help support customers on complex AI topics
     - Share expertise based on first-hand experience
     - Push the envelope on what is possible with Red Hat AI!
@@ -137,7 +163,7 @@ team:
       desc: '[GitHub](https://github.com/willsparker) · [LinkedIn](https://www.linkedin.com/in/willsparker98)'
 
 cta:
-  title: How to engage
+  title: How to get started
   text: >-
     Learn and get help at AI on OpenShift, try ready-to-deploy demos in AI Quickstart,
     propose plugin ideas in Community Plugins — or open an issue in this repository
@@ -145,4 +171,4 @@ cta:
   actions:
     - { label: Learn at AI on OpenShift, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
     - { label: Try AI Quickstart demos, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
-    - { label: Propose a plugin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }
+    - { label: Propose a community plugin, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }

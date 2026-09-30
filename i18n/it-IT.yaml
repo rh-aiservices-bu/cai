@@ -4,9 +4,10 @@ nav_page_sections: Sezioni della pagina
 nav_home: Home
 nav_numbers: Numeri
 nav_initiatives: Iniziative
+nav_tutorials: Guide
 nav_mission: Missione
 nav_team: Team
-nav_engage: Come contattarci
+nav_engage: Iniziare
 
 # Reviewed translations for OINK strings the theme ships as English fallbacks.
 # Surfaces used by this site: search palette, chrome menus, keyboard help, 404.

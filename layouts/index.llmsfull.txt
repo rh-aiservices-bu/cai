@@ -1,0 +1,6 @@
+{{- /* Full-text bundle for the home landing. The theme's list.llmsfull.txt
+bundle requires a top-level section; this site is a single data-driven page
+with no sections, so the home page emits its own llms-full.txt from the same
+landing serializer as the markdown output. */ -}}
+{{- .Page.Store.Set "tdOutputFormat" "markdown" -}}
+{{- partial "landing/home-text.md" . -}}

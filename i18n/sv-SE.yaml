@@ -1,12 +1,13 @@
 # Project strings: landing left-nav rail (layouts/_partials/hooks/body-end.html).
-# nav_contents: Sommaire
+# nav_contents: Innehåll
 nav_page_sections: Sidsektioner
 nav_home: Startsida
 nav_numbers: Siffror
 nav_initiatives: Initiativ
+nav_tutorials: Guider
 nav_mission: Uppdrag
 nav_team: Team
-nav_engage: Samarbeta med oss
+nav_engage: Kom igång
 
 # Reviewed translations for OINK strings the theme ships as English fallbacks.
 # Surfaces used by this site: search palette, chrome menus, keyboard help, 404.
