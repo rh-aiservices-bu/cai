@@ -30,23 +30,27 @@ The workflow (`.github/workflows/github-pages.yaml`) pins Hugo 0.169.0, fetches 
 ## Bilingual (Duo View)
 
 OINK **Duo View** shows two translations of the same page side-by-side in the
-browser (on-demand, same origin, no extra outputs). This site's landing pages are
-translations of English; the feature compares an `en` page with its `fr`/`es`/`de`/`sv`/`it`/`tr`/`ga` counterpart if one exists.
+browser (on-demand, same origin, no extra outputs). It works out of the box on
+`docs`/`book`/`blog` pages; our landing (`kind: home`, `_index.md`) needs extra
+wiring because of two upstream gates.
 
-Enable it (requires Hugo Extended ≥ 0.168.0 — the site already has it, but
-confirm your local install):
+**Flag** (necessary but not sufficient on the landing):
 
 ```yaml
-# hugo.yaml — params.ui.compare: true
+# hugo.yaml — turn the feature on
 params:
   ui:
     compare: true
 ```
 
-Then build and open the HTML site (`hugo` / `hugo server`), use the Command Palette
-(`Ctrl+K`) → **Duo View** or a page action's **Compare** entry, pick the other language,
-and toggle back with `B` (needs `params.ui.keyboard_nav: true`). No content-format
-outputs or URL scheme changes are involved.
+**Landing wiring still TODO** — `compare/targets.html:12` gates on
+`(in (slice "docs" "book" "blog") .Type)` so the home page returns no targets
+(no `td-compare-config`, no palette action, no entry button). A project shadow
+of that partial admitting `kind: home`/`type: page` — keeping the same-origin,
+`.Translations` and `enabled` checks — plus injecting `compare/entry.html`
+into the landing shell (e.g. the existing `body-end.html` rail hook or
+`layouts/_partials/landing/...`) is required to make Duo View live here.
+Contributions welcome; without that, `compare: true` alone does nothing.
 
 ## Content map
 
