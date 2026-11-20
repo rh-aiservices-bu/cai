@@ -37,6 +37,16 @@ ui_theme_toggle: Cambiar el tema de color
 ui_theme_light: Claro
 ui_theme_dark: Oscuro
 ui_theme_auto: Sistema
+ui_appearance: "Apariencia"
+ui_appearance_style: "Estilo"
+ui_appearance_mode: "Modo de color"
+ui_appearance_close: "Cerrar los ajustes de apariencia"
+ui_appearance_unsaved: "Tu navegador no guarda la configuración, así que esta elección solo se aplica a esta página."
+ui_preset_default: "Predeterminado"
+ui_preset_paper: "Paper"
+ui_preset_slate: "Slate"
+ui_preset_ink: "Ink"
+ui_preset_terminal: "Terminal"
 ui_copy_markdown: Copiar el Markdown
 ui_copy_success: Markdown copiado
 ui_copy_error: No se pudo copiar el Markdown

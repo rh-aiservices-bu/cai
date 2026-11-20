@@ -37,6 +37,16 @@ ui_theme_toggle: Renk temasını değiştir
 ui_theme_light: Açık
 ui_theme_dark: Koyu
 ui_theme_auto: Sistemi izle
+ui_appearance: "Görünüm"
+ui_appearance_style: "Stil"
+ui_appearance_mode: "Renk modu"
+ui_appearance_close: "Görünüm ayarlarını kapat"
+ui_appearance_unsaved: "Tarayıcınız ayarları kaydetmiyor; bu seçim yalnızca bu sayfada geçerli."
+ui_preset_default: "Varsayılan"
+ui_preset_paper: "Paper"
+ui_preset_slate: "Slate"
+ui_preset_ink: "Ink"
+ui_preset_terminal: "Terminal"
 ui_copy_markdown: Markdown'ı kopyala
 ui_copy_success: Markdown kopyalandı
 ui_copy_error: Markdown kopyalanamadı
