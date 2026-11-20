@@ -37,6 +37,16 @@ ui_theme_toggle: Växla färgtema
 ui_theme_light: Ljust
 ui_theme_dark: Mörkt
 ui_theme_auto: Följ systemet
+ui_appearance: "Utseende"
+ui_appearance_style: "Stil"
+ui_appearance_mode: "Färgläge"
+ui_appearance_close: "Stäng utseendeinställningarna"
+ui_appearance_unsaved: "Webbläsaren sparar inte inställningar, så valet gäller bara den här sidan."
+ui_preset_default: "Standard"
+ui_preset_paper: "Paper"
+ui_preset_slate: "Slate"
+ui_preset_ink: "Ink"
+ui_preset_terminal: "Terminal"
 ui_copy_markdown: Kopiera Markdown
 ui_copy_success: Markdown kopierad
 ui_copy_error: Det gick inte att kopiera Markdown

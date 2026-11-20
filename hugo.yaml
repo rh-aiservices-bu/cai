@@ -81,12 +81,15 @@ params:
   offline_search: true
   footer_center_info: ''
   ui:
+    preset: paper
+    preset_menu: [paper, slate, ink]
     dark_mode: true
     page_context_menu:
       assistant_links: true
     section_index: cards
     sidebar_menu_foldable: true
     sidebar_icon_policy: groups
+    compare: true
 
   github_repo: https://github.com/rh-aiservices-bu/cai
   github_branch: main
@@ -96,4 +99,4 @@ module:
     - path: github.com/pgsty/oink
   hugoVersion:
     extended: true
-    min: 0.160.1
+    min: 0.168.0

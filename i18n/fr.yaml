@@ -37,6 +37,16 @@ ui_theme_toggle: Changer de thème
 ui_theme_light: Clair
 ui_theme_dark: Sombre
 ui_theme_auto: Suivre le système
+ui_appearance: "Apparence"
+ui_appearance_style: "Style"
+ui_appearance_mode: "Mode de couleur"
+ui_appearance_close: "Fermer les réglages d’apparence"
+ui_appearance_unsaved: "Votre navigateur n’enregistre pas les réglages : ce choix ne vaut que pour cette page."
+ui_preset_default: "Par défaut"
+ui_preset_paper: "Paper"
+ui_preset_slate: "Slate"
+ui_preset_ink: "Ink"
+ui_preset_terminal: "Terminal"
 ui_copy_markdown: Copier le Markdown
 ui_copy_success: Markdown copié
 ui_copy_error: Impossible de copier le Markdown

@@ -37,12 +37,48 @@ ui_theme_toggle: Athraigh an téama
 ui_theme_light: Geal
 ui_theme_dark: Dorcha
 ui_theme_auto: Lean an córas
+ui_appearance: "Cuma"
+ui_appearance_style: "Stíl"
+ui_appearance_mode: "Mód datha"
+ui_appearance_close: "Dún na socruithe cuma"
+ui_appearance_unsaved: "Ní shábhálann do bhrabhsálaí socruithe, mar sin níl an rogha seo i bhfeidhm ach ar an leathanach seo amháin."
+ui_preset_default: "Réamhshocrú"
+ui_preset_paper: "Paper"
+ui_preset_slate: "Slate"
+ui_preset_ink: "Ink"
+ui_preset_terminal: "Terminal"
 ui_copy_markdown: Cóipeáil an Markdown
 ui_copy_success: Markdown cóipeáilte
 ui_copy_error: Níorbh fhéidir an Markdown a chóipeáil
 ui_copy_link: Cóipeáil an nasc
 ui_copy_link_success: Nasc cóipeáilte
 ui_copy_link_error: Níorbh fhéidir an nasc a chóipeáil
+post_create_child_page: "Cruthaigh fo-leathanach"
+post_create_issue: "Cruthaigh saincheist cháipéisithe"
+post_create_project_issue: "Cruthaigh saincheist tionscadail"
+post_edit_this: "Cuir an leathanach seo in eagar"
+post_view_markdown: "Féach ar Markdown"
+print_entire_section: "Priontáil an roinn iomlán"
+ui_action_unavailable: "níl ar fáil"
+ui_categories_title: "Catagóirí"
+ui_drawer_close: "Dún an nascleanúint"
+ui_drawer_open: "Oscail an nascleanúint"
+ui_open_in_chatgpt: "Oscail i ChatGPT"
+ui_open_in_claude: "Oscail i Claude"
+ui_open_in_prompt: "Oscail sa leid"
+ui_open_in_prompt_label: "Oscail i {label}"
+ui_palette_actions: "Gníomhartha"
+ui_palette_pages: "Leathanaigh"
+ui_search: "Cuardaigh…"
+ui_search_partial: "Cuardaigh"
+ui_search_partial_results: "Ag cuardach {query}…"
+ui_search_scope: "Raon feidhme"
+ui_search_scope_all: "Gach leathanach"
+ui_share: "Comhroinn"
+ui_sidebar_collapse: "Laghdaigh an barra taoibh"
+ui_sidebar_expand: "Leathnaigh an barra taoibh"
+ui_tags_title: "Clibeanna"
+ui_view_history: "Féach ar stair"
 ui_print_page: Priontáil an leathanach seo
 ui_keyboard_shortcuts: Aicearraí méarchláir
 ui_shortcut_tree_move: Siúil tríd an mbarra taoibh
@@ -56,6 +92,15 @@ ui_shortcut_reading_mode: Mód léitheoireachta
 ui_shortcut_language: Athraigh teanga
 ui_shortcut_theme: Athraigh an téama
 ui_shortcut_route: Siúil trí na leathanaigh ardleibhéil
+ui_compare_view: 'Duo View'
+ui_compare_sync: 'Sync Scroll'
+ui_compare_sync_approximate: 'Tá roinnt ceannteideal difriúil idir an dá leathanach, mar sin déantar suíomhanna idir na ceannteidil mheaitseáilte a mheas.'
+ui_compare_sync_progress: 'Níl aon cheannteideal comhroinnte oiriúnach chun na leathanaigh a ailíniú, mar sin leanann an sioncronú dul chun cinn léitheoireachta an cháipéise iomláine.'
+ui_compare_sync_unavailable: 'Níl an sioncronú ar fáil toisc go bhfuil na ceannteidil dúbailte nó as ord.'
+ui_shortcut_compare: 'Oscail an Dearcadh Déach'
+ui_compare_error: "Níorbh fhéidir an leathanach seo a luchtú."
+ui_compare_loading: 'Á luchtú…'
+ui_compare_retry: 'Aththriail'
 error_404_title: Leathanach gan aimsiú
 error_404_body: >-
   Ár leithscéal, níl an leathanach seo ann. Téigh ar ais ón leathanach baile.
