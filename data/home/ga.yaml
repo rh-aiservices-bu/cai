@@ -1,0 +1,177 @@
+sections:
+  - hero
+  - metrics
+  - cards
+  - type: markdown
+    key: tutorials
+  - type: markdown
+    key: mission
+  - type: contributors
+    key: team
+  - cta
+
+hero:
+  eyebrow: An fhoireann CAI · Aonad Gnó AI Red Hat
+  image:
+    light: landing/hero-light.svg
+    dark: landing/hero-dark.svg
+    alt: Léaráid líonra theibí de chumais nasctha Red Hat AI
+  media:
+    hide_below: lg
+  title_size: 2.8rem
+  title_lines:
+    - words: [{ text: "Customer Adoption" }]
+    - words: [{ text: "and Innovation" }]
+    - words: [{ mark: "(CAI)", color: red }]
+  lead: >-
+    Imscaraimid, úsáidimid agus cuirimid Red Hat AI faoi thástáil chrua i
+    dtimpeallachtaí cosúil le táirgeadh — ansin roinnimid a n-oibríonn lenár
+    gcustaiméirí, páirtithe agus comhghleacaithe, ionas gur féidir leo a
+    lánacmhainn a bhaint amach.
+  actions:
+    - { label: Buail leis an bhfoireann, url: '#team', icon: fa-solid fa-users, style: primary }
+    - { label: Féach ar a bhfuil cruthaithe againn, url: '#cards', icon: fa-solid fa-layer-group, style: ghost }
+
+metrics:
+  animate: true
+  columns: 4
+  eyebrow: Figiúirí tapa
+  items:
+    - value: 178
+      label: Stórtha in rh-aiservices-bu
+      desc: Deighilt GPU, oibríochtaí LLM, tagarmharcanna agus ceardlanna.
+      icon: fa-brands fa-github
+      source: { label: Eagraíocht GitHub, url: "https://github.com/rh-aiservices-bu" }
+    - value: 70
+      suffix: "+"
+      label: Taispeántais cruthaithe ag an bhfoireann
+      desc: RAG, AI satailíte, gníomhairí slabhra soláthair, agus cúntóirí gutha.
+      icon: fa-solid fa-rocket
+      source: { label: AI Quickstart, url: "https://github.com/rh-ai-quickstart" }
+    - value: 6
+      label: Breiseáin deais
+      desc: Bainisteoir quickstarts, amharcóir Kueue, Apache Superset, agus tuilleadh.
+      icon: fa-solid fa-plug
+      source: { label: Breiseáin Phobail, url: "https://github.com/rh-ai-community-plugins" }
+    - value: 9
+      label: Baill foirne
+      desc: Cumasú MLOps agus GenAIOps, quickstarts, agus breiseáin.
+      icon: fa-solid fa-users
+      source: { label: Buail leis an bhfoireann, url: '#team' }
+
+cards:
+  eyebrow: A ndéanaimid a thógáil agus a chothabháil
+  title: Tionscnaimh
+  columns: 2
+  items:
+    - title: Eagraíocht GitHub Red Hat AI
+      desc: Do gach duine — ár bpríomheagraíocht le 178 stór a chlúdaíonn tionscadail AI, fréamhshamhlacha agus uirlisí.
+      icon: fa-solid fa-layer-group
+      url: https://github.com/rh-aiservices-bu
+      external: true
+    - title: Red Hat AI Community Plugins
+      desc: Do riarthóirí RHAIE — breiseáin phobail a leathnaíonn Red Hat OpenShift AI.
+      icon: fa-solid fa-plug
+      url: https://github.com/rh-ai-community-plugins
+      external: true
+    - title: AI Quickstarts
+      desc: D'fhorbróirí — samplaí dírithe ar thorthaí a thaispeánann conas a réitíonn AI fíorfhadhbanna gnó.
+      icon: fa-solid fa-rocket
+      url: https://github.com/rh-ai-quickstart
+      external: true
+    - title: AI on OpenShift
+      desc: D'aon duine atá ag foghlaim AI ar OpenShift — patrúin, taispeántais, uirlisí agus treoracha.
+      icon: fa-solid fa-book-open
+      url: https://ai-on-openshift.io/
+      external: true
+    - title: AI500 MLOps Enablement
+      desc: Do fhoirne atá ag cur scileanna MLOps le chéile — saotharlann AI500 a chlúdaíonn turgnamh, oiliúint uathoibrithe múnlaí agus soláthar.
+      icon: fa-solid fa-infinity
+      url: https://github.com/rhoai-mlops
+      external: true
+    - title: AI501 GenAIOps Enablement
+      desc: Do fhoirne atá ag rith GenAI i dtáirgeadh — AI501, ceardlann 5 lá le saotharlanna, sleamhnáin agus uirlisí imscartha.
+      icon: fa-solid fa-graduation-cap
+      url: https://github.com/rhoai-genaiops
+      external: true
+    - title: LiteMaaS
+      desc: D'fhoirne ardáin — cruthúnas coincheapa do shíntiúis LLM, eochracha API agus rianú úsáide, ag comhtháthú le LiteLLM.
+      icon: fa-solid fa-server
+      url: https://github.com/rh-aiservices-bu/litemaas
+      external: true
+    - title: Ceardlann Parasol
+      desc: D'fhoghlaimeoirí praiticiúla — oideas imscartha don taispeántas Parasol Insurance ar bhraisle RHOAI.
+      icon: fa-solid fa-person-chalkboard
+      url: https://github.com/rh-aiservices-bu/parasol-demo-deployment
+      external: true
+
+tutorials:
+  eyebrow: Foghlaim
+  title: Teagaisc
+  body: |
+    - [Treoir RHOAI MaaS](https://github.com/rh-aiservices-bu/rhoai-maas-guide) — úsáid múnlaí mar sheirbhís in Red Hat OpenShift AI
+    - [RHOAI dícheangailte](https://github.com/rh-aiservices-bu/disconnected-rhoai) — rith Red Hat OpenShift AI i dtimpeallachtaí dícheangailte (bearna aeir)
+    - [Treoir deighilte GPU](https://github.com/rh-aiservices-bu/gpu-partitioning-guide) — deighil GPUanna d'ualaí oibre AI ar OpenShift
+    - [Treoir aistrithe RHOAI 2.25 → 3.5](https://github.com/rh-aiservices-bu/rhoai-2.25-3.5-migration-guide) — aistrigh Red Hat OpenShift AI ó 2.25 go 3.5
+
+mission:
+  eyebrow: A ndéanaimid
+  title: Misean
+  body: |
+    Trí chomhairle atá fréamhaithe i dtaithí an tsaoil fhíoir, cumasaímid
+    custaiméirí, páirtithe agus comhghleacaithe chun lánacmhainn Red Hat AI a
+    bhaint amach.
+
+    - Bain leas as táirgí Red Hat AI mar a dhéanann ár gcustaiméirí
+    - Gníomhú mar "chustaiméir a náid" inmheánach in Red Hat — ag cruthú ár dtáirgí orainn féin sula gcaithfidh custaiméirí é a dhéanamh
+    - Cabhrú le custaiméirí ar ábhair chasta AI
+    - Roinn saineolas atá bunaithe ar thaithí phearsanta
+    - Brúigh teorainneacha a bhfuil indéanta le Red Hat AI!
+
+team:
+  eyebrow: Cé muid féin
+  title: Foireann
+  type: contributors
+  columns: 3
+  # desc:
+  items:
+    - name: Erwan Granger
+      class: td-landing-contributor--director
+      image: https://github.com/erwangranger.png?size=160
+      desc: '[GitHub](https://github.com/erwangranger) · [LinkedIn](https://www.linkedin.com/in/erwangranger)'
+    - name: Guillaume Moutier
+      image: https://github.com/guimou.png?size=160
+      desc: '[GitHub](https://github.com/guimou) · [LinkedIn](https://www.linkedin.com/in/guillaume-moutier-70aba762)'
+    - name: Robert Lundberg
+      image: https://github.com/RHRolun.png?size=160
+      desc: '[GitHub](https://github.com/RHRolun) · [LinkedIn](https://www.linkedin.com/in/rolun)'
+    - name: Roberto Carratalá
+      image: https://github.com/rcarrata.png?size=160
+      desc: '[GitHub](https://github.com/rcarrata) · [LinkedIn](https://www.linkedin.com/in/rcarrata)'
+    - name: Karl Eklund
+      image: https://github.com/keklundrh.png?size=160
+      desc: '[GitHub](https://github.com/keklundrh) · [LinkedIn](https://www.linkedin.com/in/karl-eklund-a2180515)'
+    - name: Cansu Kavili Örnek
+      image: https://github.com/ckavili.png?size=160
+      desc: '[GitHub](https://github.com/ckavili) · [LinkedIn](https://www.linkedin.com/in/ckavili)'
+    - name: Philip Hayes
+      image: https://github.com/deewhyweb.png?size=160
+      desc: '[GitHub](https://github.com/deewhyweb) · [LinkedIn](https://www.linkedin.com/in/philip-hayes-0327532)'
+    - name: Sara Banderby
+      image: https://github.com/sarabanderby.png?size=160
+      desc: '[GitHub](https://github.com/sarabanderby) · [LinkedIn](https://www.linkedin.com/in/annelisarabanderby)'
+    - name: Will Parker
+      image: https://github.com/willsparker.png?size=160
+      desc: '[GitHub](https://github.com/willsparker) · [LinkedIn](https://www.linkedin.com/in/willsparker98)'
+
+cta:
+  title: Conas tosú
+  text: >-
+    Foghlaim agus faigh cabhair ag AI on OpenShift, bain triail as taispeántais
+    réidh le himscaradh in AI Quickstart, mol smaointe breiseán in Community
+    Plugins — nó oscail ceist sa stór seo chun oibriú go díreach leis an
+    bhfoireann.
+  actions:
+    - { label: Foghlaim ag AI on OpenShift, url: "https://ai-on-openshift.io/", icon: fa-solid fa-book-open, style: primary, external: true }
+    - { label: Bain triail as taispeántais AI Quickstart, url: "https://github.com/rh-ai-quickstart", icon: fa-solid fa-rocket, style: ghost, external: true }
+    - { label: Mol breiseán pobail, url: "https://github.com/rh-ai-community-plugins", icon: fa-solid fa-plug, style: ghost, external: true }
