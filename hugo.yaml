@@ -82,7 +82,7 @@ params:
   footer_center_info: ''
   ui:
     preset: paper
-    preset_menu: [paper, slate, ink, terminal]
+    preset_menu: [paper, slate, ink]
     dark_mode: true
     page_context_menu:
       assistant_links: true
