@@ -6,7 +6,7 @@ deployed to GitHub Pages at https://rh-aiservices-bu.github.io/cai/.
 
 ## Preview locally
 
-Requires Hugo Extended ≥ 0.165 and Go ≥ 1.27 (no Node.js):
+Requires Hugo Extended ≥ 0.169.0 and Go ≥ 1.27.3 (no Node.js):
 
 ```sh
 hugo server
@@ -24,8 +24,8 @@ scripts/render.sh start|stop|restart|status|logs [n]|follow
 1. Repo **Settings → Pages → Source: GitHub Actions** (one-time).
 2. Push to `main`, or run **Deploy to GitHub Pages** from the Actions tab.
 
-The workflow (`.github/workflows/github-pages.yaml`) pins Hugo 0.165.0, resolves the
-OINK module from `go.mod`/`go.sum`, and builds warning-strict.
+The workflow (`.github/workflows/github-pages.yaml`) pins Hugo 0.169.0, resolves the
+OINK v1.5.1 module from `go.mod`/`go.sum`, and builds via `hugo --printPathWarnings`.
 
 ## Content map
 
@@ -35,6 +35,5 @@ OINK module from `go.mod`/`go.sum`, and builds warning-strict.
 | `data/home/fr.yaml` | French landing sections; `es/de/sv/it/tr/ga` peers in the same folder (resolved per language by the theme; hero title and brand name stay English) |
 | `content/_index.md` | Home page front matter (title, description) |
 | `content/_index.fr.md` | French home page front matter; `es/de/sv/it/tr/ga` peers in the same folder |
-| `i18n/en.yaml` | English strings: landing left-nav rail labels |
-| `i18n/fr.yaml` | French strings: left-nav rail labels + translations for OINK UI strings the theme ships as English fallbacks; `es-ES/de-DE/sv-SE/it-IT/tr-TR/ga-IE` peers named by full subtag so project strings register after the theme's base-tag fallbacks and always win |
+| `i18n/de.yaml` / `i18n/es.yaml` / `i18n/fr.yaml` / … (plus `i18n/en.yaml`) | Per-locale UI strings: landing rails + OINK appearance/preset, shell, copy/link, 404. Bare `<lang>.yaml` so entries merge on top of theme `<lang>.yaml` (regioned names like `de-DE.yaml` shadow instead of merging, see `ef9f1e6`). `nav_contents` stays commented out site-wide |
 | `hugo.yaml` | The only site configuration file |
