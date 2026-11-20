@@ -89,6 +89,7 @@ params:
     section_index: cards
     sidebar_menu_foldable: true
     sidebar_icon_policy: groups
+    compare: true
 
   github_repo: https://github.com/rh-aiservices-bu/cai
   github_branch: main

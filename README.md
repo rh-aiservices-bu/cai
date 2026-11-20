@@ -30,27 +30,22 @@ The workflow (`.github/workflows/github-pages.yaml`) pins Hugo 0.169.0, fetches 
 ## Bilingual (Duo View)
 
 OINK **Duo View** shows two translations of the same page side-by-side in the
-browser (on-demand, same origin, no extra outputs). It works out of the box on
-`docs`/`book`/`blog` pages; our landing (`kind: home`, `_index.md`) needs extra
-wiring because of two upstream gates.
+browser (on-demand, same origin, no extra outputs). The flag in this repo is
+`params.ui.compare: true` (in `hugo.yaml`). Landing needs two project shims
+because upstream gates on `docs`/`book`/`blog` only:
 
-**Flag** (necessary but not sufficient on the landing):
+- `layouts/_partials/compare/targets.html` — shadow of `_vendor/.../compare/targets.html`
+  admitting `type: page` (home) alongside `docs`/`book`/`blog`, keeping the
+  same-origin, `.Translations`, and `enabled` checks and the returned dict shape;
+  without it the landing has no `td-compare-config` targets.
+- `layouts/_partials/hooks/body-end.html` injects `{{ partial "compare/entry.html" . }}`
+  (compare-entry.js unhides any `[data-td-compare-open]` regardless of location);
+  the palette action `compare_translations` comes free via `actions/context.html:193`
+  which reuses the same targets partial.
 
-```yaml
-# hugo.yaml — turn the feature on
-params:
-  ui:
-    compare: true
-```
-
-**Landing wiring still TODO** — `compare/targets.html:12` gates on
-`(in (slice "docs" "book" "blog") .Type)` so the home page returns no targets
-(no `td-compare-config`, no palette action, no entry button). A project shadow
-of that partial admitting `kind: home`/`type: page` — keeping the same-origin,
-`.Translations` and `enabled` checks — plus injecting `compare/entry.html`
-into the landing shell (e.g. the existing `body-end.html` rail hook or
-`layouts/_partials/landing/...`) is required to make Duo View live here.
-Contributions welcome; without that, `compare: true` alone does nothing.
+With `compare: true`, every locale's landing now carries a 7-entry
+`td-compare-config`, the entry button, and the palette `compare_translations`
+action; `head.html:163` and `scripts.html:364` are global and need no changes.
 
 ## Content map
 

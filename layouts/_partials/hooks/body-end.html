@@ -15,3 +15,5 @@
 {{- /* Landing section nav + scroll-spy; both no-ops without the rail. */ -}}
 {{ $navJs := resources.Get "js/landing-nav.js" | minify | fingerprint }}
 <script defer src="{{ $navJs.RelPermalink }}" integrity="{{ $navJs.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- /* Duo View entry for landing (kind home has no title-menu). */ -}}
+{{ partial "compare/entry.html" . }}
