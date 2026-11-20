@@ -53,8 +53,16 @@ jobs:
       - name: Build
         run: |
           hugo --cleanDestinationDir --gc --minify --environment production \
-            --printPathWarnings \
+            --panicOnWarning --printPathWarnings \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Verify offline search indexes
+        run: |
+          for lang in de en es fr ga it sv tr; do
+            test -f "public/offline-search-index.${lang}."*.json
+          done
+          echo "All 8 search indexes present"
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:

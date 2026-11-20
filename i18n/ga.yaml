@@ -92,6 +92,15 @@ ui_shortcut_reading_mode: Mód léitheoireachta
 ui_shortcut_language: Athraigh teanga
 ui_shortcut_theme: Athraigh an téama
 ui_shortcut_route: Siúil trí na leathanaigh ardleibhéil
+ui_compare_view: 'Duo View'
+ui_compare_sync: 'Sync Scroll'
+ui_compare_sync_approximate: 'Tá roinnt ceannteideal difriúil idir an dá leathanach, mar sin déantar suíomhanna idir na ceannteidil mheaitseáilte a mheas.'
+ui_compare_sync_progress: 'Níl aon cheannteideal comhroinnte oiriúnach chun na leathanaigh a ailíniú, mar sin leanann an sioncronú dul chun cinn léitheoireachta an cháipéise iomláine.'
+ui_compare_sync_unavailable: 'Níl an sioncronú ar fáil toisc go bhfuil na ceannteidil dúbailte nó as ord.'
+ui_shortcut_compare: 'Oscail an Dearcadh Déach'
+ui_compare_error: "Níorbh fhéidir an leathanach seo a luchtú."
+ui_compare_loading: 'Á luchtú…'
+ui_compare_retry: 'Aththriail'
 error_404_title: Leathanach gan aimsiú
 error_404_body: >-
   Ár leithscéal, níl an leathanach seo ann. Téigh ar ais ón leathanach baile.
