@@ -54,6 +54,12 @@ languages:
     weight: 8
     title: Customer Adoption and Innovation (CAI)
 
+  ga:
+    label: Gaeilge
+    locale: ga-IE
+    weight: 9
+    title: Customer Adoption and Innovation (CAI)
+
 # OINK's Markdown components depend on these Goldmark settings.
 markup:
   goldmark:

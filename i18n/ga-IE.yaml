@@ -1,0 +1,62 @@
+# Project strings: landing left-nav rail (layouts/_partials/hooks/body-end.html).
+# nav_contents: Clár ábhair
+nav_page_sections: Rannáin an leathanaigh
+nav_home: Baile
+nav_numbers: Figiúirí
+nav_initiatives: Tionscnaimh
+nav_tutorials: Teagaisc
+nav_mission: Misean
+nav_team: Foireann
+nav_engage: Tosaigh
+
+# Reviewed translations for OINK strings the theme ships as English fallbacks.
+# Surfaces used by this site: search palette, chrome menus, keyboard help, 404.
+contributors_count: rannpháirtithe
+ui_search_empty: Gan torthaí
+ui_search_loading: Innéacs cuardaigh á luchtú…
+ui_search_results: '{count} toradh aimsithe'
+ui_search_nav: Nascleanúint
+ui_search_open: Oscail
+ui_search_close: Dún
+ui_palette_choose: Roghnaigh rogha
+ui_palette_no_commands: Níl aon ordú comhoiriúnach
+ui_palette_quick_links: Naisc thapa
+ui_palette_commands: Orduithe
+ui_palette_preferences: Sainroghanna
+ui_palette_page_actions: Gníomhartha an leathanaigh
+ui_palette_index_unavailable: Níl innéacs an leathanaigh ar fáil; oibríonn na gníomhartha fós
+ui_palette_action_failed: Níorbh fhéidir an gníomh a chur i gcrích
+ui_home: Baile
+ui_sidebar_nav: Nascleanúint an rannáin
+ui_main_nav: Príomhnascleanúint
+ui_heading_self_link: Nasc chuig an gceannteideal seo
+ui_language_select: Roghnaigh teanga
+ui_language_switch: Athraigh teanga
+ui_skip_to_content: Léim chuig an ábhar
+ui_theme_toggle: Athraigh an téama
+ui_theme_light: Geal
+ui_theme_dark: Dorcha
+ui_theme_auto: Lean an córas
+ui_copy_markdown: Cóipeáil an Markdown
+ui_copy_success: Markdown cóipeáilte
+ui_copy_error: Níorbh fhéidir an Markdown a chóipeáil
+ui_copy_link: Cóipeáil an nasc
+ui_copy_link_success: Nasc cóipeáilte
+ui_copy_link_error: Níorbh fhéidir an nasc a chóipeáil
+ui_print_page: Priontáil an leathanach seo
+ui_keyboard_shortcuts: Aicearraí méarchláir
+ui_shortcut_tree_move: Siúil tríd an mbarra taoibh
+ui_shortcut_tree_toggle: Laghdaigh nó leathnaigh an rannán
+ui_shortcut_tree_open: Oscail an leathanach roghnaithe
+ui_shortcut_heading_move: An ceannteideal roimhe seo nó an chéad cheann eile
+ui_shortcut_page_move: An leathanach roimhe seo nó an chéad cheann eile
+ui_shortcut_search: Cuardaigh
+ui_shortcut_commands: Pailéad orduithe
+ui_shortcut_reading_mode: Mód léitheoireachta
+ui_shortcut_language: Athraigh teanga
+ui_shortcut_theme: Athraigh an téama
+ui_shortcut_route: Siúil trí na leathanaigh ardleibhéil
+error_404_title: Leathanach gan aimsiú
+error_404_body: >-
+  Ár leithscéal, níl an leathanach seo ann. Téigh ar ais ón leathanach baile.
+error_404_home: Téigh go dtí an leathanach baile
